@@ -141,7 +141,7 @@ input[type=text], input[type=date], input[type=search], select, textarea {
 .reader-text p { margin: 0 0 1em; }
 .w { cursor: pointer; border-radius: 4px; padding: 0 1px; }
 .w:active { background: var(--accent-soft); }
-.w.hl { background: var(--gold); color: #fff; }
+.w.hl { background: #ffd54d; color: #1c1c1c; font-weight: 600; }
 .w.saved { border-bottom: 2px solid var(--accent); }
 .audiobar { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 8px 0; }
 .audiobar audio { width: 100%; height: 36px; }
