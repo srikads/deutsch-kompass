@@ -12,7 +12,15 @@ const ALLOWED_ORIGINS = [
   "http://localhost:8123",
 ];
 
-const MODEL = "gemini-2.5-flash";
+// Tried in order; the first one that answers gets remembered. Google renames
+// Flash models often, so "-latest" aliases come first.
+const MODEL_CANDIDATES = [
+  "gemini-flash-latest",
+  "gemini-2.5-flash",
+  "gemini-2.0-flash",
+  "gemini-1.5-flash-latest",
+];
+let activeModel = null;
 
 const SYSTEM_PROMPT = `You are a friendly, precise German teacher inside a self-study app.
 Your student is preparing for the Goethe B1 exam.
@@ -88,8 +96,8 @@ export default {
       generationConfig: { maxOutputTokens: 800, temperature: 0.3 },
     };
 
-    const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`,
+    const call = (model) => fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY },
@@ -97,9 +105,31 @@ export default {
       }
     );
 
-    if (!r.ok) {
-      const detail = (await r.text()).slice(0, 300);
-      return new Response(JSON.stringify({ error: `gemini ${r.status}`, detail }),
+    const models = activeModel
+      ? [activeModel, ...MODEL_CANDIDATES.filter((m) => m !== activeModel)]
+      : MODEL_CANDIDATES;
+    let r = null;
+    for (const m of models) {
+      r = await call(m);
+      if (r.status === 404) continue; // model name unknown -> try next
+      if (r.ok) activeModel = m;
+      break;
+    }
+
+    if (!r || !r.ok) {
+      let detail = r ? (await r.text()).slice(0, 300) : "";
+      if (!r || r.status === 404) {
+        // every candidate 404ed -> tell the caller which models this key CAN use
+        try {
+          const lm = await fetch("https://generativelanguage.googleapis.com/v1beta/models",
+            { headers: { "x-goog-api-key": env.GEMINI_API_KEY } });
+          const names = ((await lm.json()).models || [])
+            .map((x) => x.name?.replace("models/", ""))
+            .filter((n) => n && n.includes("flash"));
+          detail = "No candidate model found. Models available to this key: " + names.join(", ");
+        } catch {}
+      }
+      return new Response(JSON.stringify({ error: `gemini ${r ? r.status : "unreachable"}`, detail }),
         { status: 502, headers: { "Content-Type": "application/json", ...corsHeaders(origin) } });
     }
     const data = await r.json();
