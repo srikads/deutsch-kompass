@@ -92,8 +92,10 @@ export async function renderReader(view, essay) {
 
   // --- audio bar -------------------------------------------------------
   const bar = h("div", { class: "audiobar" });
+  let audioEl = null;
   if (essay.audioUrl) {
-    bar.append(h("audio", { controls: true, preload: "none", src: essay.audioUrl }));
+    audioEl = h("audio", { controls: true, preload: "none", src: essay.audioUrl });
+    bar.append(audioEl);
   }
   const spans = [];
   let ttsBtn;
@@ -135,6 +137,45 @@ export async function renderReader(view, essay) {
     textEl.append(p);
   }
   view.append(textEl);
+
+  // --- approximate follow-along for the native mp3 (beta) --------------
+  // The mp3 has no word timings, so we map playback progress onto the
+  // sentences proportionally, skipping an estimated intro jingle.
+  if (audioEl) {
+    const sentences = [];
+    let cur = [];
+    for (const sp of spans) {
+      cur.push(sp);
+      if (/[.!?:]$/.test(sp.textContent.trim()) || sp.dataset.paraEnd) { sentences.push(cur); cur = []; }
+    }
+    if (cur.length) sentences.push(cur);
+    const total = spans.length;
+    const cumStart = [];
+    let acc = 0;
+    for (const s of sentences) { cumStart.push(acc / total); acc += s.length; }
+
+    let hlIdx = -1;
+    const clear = () => {
+      if (hlIdx >= 0) sentences[hlIdx].forEach((s) => s.classList.remove("hl"));
+      hlIdx = -1;
+    };
+    audioEl.addEventListener("timeupdate", () => {
+      const d = audioEl.duration;
+      if (!d || audioEl.paused) return;
+      const intro = Math.min(9, d * 0.06);
+      const frac = Math.max(0, Math.min(0.999, (audioEl.currentTime - intro) / (d - intro)));
+      let idx = 0;
+      for (let i = 0; i < cumStart.length; i++) if (cumStart[i] <= frac) idx = i;
+      if (idx !== hlIdx) {
+        clear();
+        hlIdx = idx;
+        sentences[idx].forEach((s) => s.classList.add("hl"));
+        sentences[idx][0]?.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
+    });
+    audioEl.addEventListener("pause", clear);
+    audioEl.addEventListener("ended", clear);
+  }
 
   // --- glossary --------------------------------------------------------
   if (essay.glossary?.length) {

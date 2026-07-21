@@ -80,7 +80,7 @@ async function myMemory(word) {
     const data = await fetchJson(
       "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(word) + "&langpair=de|en"
     );
-    const t = data?.responseData?.translatedText;
+    const t = data?.responseData?.translatedText?.trim();
     if (t && !/NO QUERY|INVALID/i.test(t)) return t;
   } catch {}
   return null;

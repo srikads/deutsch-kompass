@@ -71,6 +71,6 @@ for p in playlists:
         except Exception as e:
             fail += 1
             print(f"FAIL {vid}  {v['title'][:50]}  ({type(e).__name__}: {str(e)[:80]})", flush=True)
-        time.sleep(5)
+        time.sleep(20)
 
 print(f"\nDone: {ok} fetched, {skip} already present, {fail} failed -> {OUT}", flush=True)

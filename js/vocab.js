@@ -2,6 +2,20 @@
 // and the Goethe B1 wordlist coverage browser ("checklist" style).
 
 import { state, save, h, today, toast, bumpActivity, loadData, wlKey, pct, shuffle } from "./core.js";
+import { lookup } from "./dict.js";
+
+// fetch a missing translation for a card and store it (used for wordlist
+// additions and as a backfill for older cards saved without a translation)
+async function fillTranslation(front) {
+  const res = await lookup(front, null);
+  const c = state.cards[front];
+  if (c && !c.back && res?.translation) {
+    c.back = res.translation;
+    save();
+    return c.back;
+  }
+  return null;
+}
 
 // ---- card model -------------------------------------------------------
 
@@ -73,13 +87,18 @@ export async function renderVocab(view) {
           h("div", { style: `width:${pct(cov.mastered, cov.total)}%` }))))
   );
 
+  const quizable = Object.values(state.cards).filter((c) => c.back).length;
   view.append(
     h("div", { class: "row", style: "margin:12px 0" },
       h("button", { class: "btn grow", disabled: !due.length, onclick: () => renderReview(view) },
         `Wiederholen (${due.length})`),
-      h("button", { class: "btn blue grow", disabled: total < 4, onclick: () => renderMcQuiz(view) },
+      h("button", { class: "btn blue grow", disabled: quizable < 4, onclick: () => renderMcQuiz(view) },
         "Quiz"))
   );
+  if (quizable < 4) {
+    view.append(h("div", { class: "muted small", style: "margin:-6px 2px 10px" },
+      `Das Quiz braucht mindestens 4 Karten mit Übersetzung (aktuell: ${quizable}). Es baut aus deinen Karten die falschen Antworten.`));
+  }
 
   // deck list
   const deck = h("div", { class: "card" }, h("h3", {}, "Meine Karten"));
@@ -140,7 +159,14 @@ function renderReview(view) {
       controls.append(h("button", { class: "btn", style: "width:100%", onclick: () => { shown = true; render(); } }, "Antwort zeigen"));
     } else {
       fc.onclick = null;
-      fc.append(h("div", { class: "back" }, c.back || "(keine Übersetzung gespeichert)"),
+      const backEl = h("div", { class: "back" }, c.back || "(suche Übersetzung…)");
+      if (!c.back) {
+        fillTranslation(c.front).then((t) => {
+          if (!t) backEl.textContent = navigator.onLine ? "(keine Übersetzung gefunden)" : "(offline — Übersetzung folgt online)";
+          else backEl.textContent = t;
+        });
+      }
+      fc.append(backEl,
         c.verbForms ? h("div", { class: "muted small", style: "margin-top:6px" }, c.verbForms) : null);
       const gbtn = (label, g, cls) =>
         h("button", { class: "btn " + cls, onclick: () => { grade(c, g); bumpActivity("reviews"); i++; next(); } }, label);
@@ -231,7 +257,10 @@ async function renderWordlistBrowser(view) {
           e.forms ? h("span", { class: "muted small" }, " · " + e.forms) : null),
         h("button", {
           class: "btn ghost sm",
-          onclick: () => addCard(e.lemma, { back: "", grammar: e.display, verbForms: e.forms ? e.lemma + ", " + e.forms : "", b1: true, source: "B1-Wortliste" }) || toast("Karte angelegt — Übersetzung beim Lesen antippen"),
+          onclick: () => {
+            addCard(e.lemma, { back: "", grammar: e.display, verbForms: e.forms ? e.lemma + ", " + e.forms : "", b1: true, source: "B1-Wortliste" });
+            fillTranslation(e.lemma).then((t) => toast(t ? `Karte angelegt: ${t}` : "Karte angelegt (Übersetzung folgt online)"));
+          },
         }, "＋"));
       rows.append(row);
     }
