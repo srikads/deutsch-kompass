@@ -109,11 +109,24 @@ export default {
       ? [activeModel, ...MODEL_CANDIDATES.filter((m) => m !== activeModel)]
       : MODEL_CANDIDATES;
     let r = null;
-    for (const m of models) {
-      r = await call(m);
-      if (r.status === 404) continue; // model name unknown -> try next
-      if (r.ok) activeModel = m;
-      break;
+    // two passes: overloaded models (429/503) are skipped in favour of the
+    // next candidate; a short pause before the second pass rides out spikes
+    outer: for (let attempt = 0; attempt < 2; attempt++) {
+      if (attempt > 0) await new Promise((res) => setTimeout(res, 1500));
+      for (const m of models) {
+        r = await call(m);
+        if (r.status === 404) continue;            // unknown name -> next
+        if (r.status === 429 || r.status === 503) continue; // congested -> next
+        if (r.ok) activeModel = m;
+        break outer;
+      }
+    }
+
+    if (r && (r.status === 429 || r.status === 503)) {
+      // everything congested: friendly chat reply instead of an error
+      return new Response(JSON.stringify({
+        text: "😮‍💨 Der Lehrer ist gerade überlastet (hohe Nachfrage bei Google). Warte eine Minute und stell die Frage einfach noch einmal.",
+      }), { headers: { "Content-Type": "application/json", ...corsHeaders(origin) } });
     }
 
     if (!r || !r.ok) {
