@@ -15,10 +15,11 @@ const ALLOWED_ORIGINS = [
 // Tried in order; the first one that answers gets remembered. Google renames
 // Flash models often, so "-latest" aliases come first.
 const MODEL_CANDIDATES = [
+  "gemini-3.5-flash",
   "gemini-flash-latest",
+  "gemini-3-flash-preview",
   "gemini-2.5-flash",
   "gemini-2.0-flash",
-  "gemini-1.5-flash-latest",
 ];
 let activeModel = null;
 
@@ -108,22 +109,28 @@ export default {
     const models = activeModel
       ? [activeModel, ...MODEL_CANDIDATES.filter((m) => m !== activeModel)]
       : MODEL_CANDIDATES;
-    let r = null;
     // two passes: overloaded models (429/503) are skipped in favour of the
-    // next candidate; a short pause before the second pass rides out spikes
+    // next candidate; a short pause before the second pass rides out spikes.
+    // A trailing 404 must never mask an earlier overload, so track them apart.
+    let r = null;
+    let sawOverload = false;
     outer: for (let attempt = 0; attempt < 2; attempt++) {
       if (attempt > 0) await new Promise((res) => setTimeout(res, 1500));
       for (const m of models) {
-        r = await call(m);
-        if (r.status === 404) continue;            // unknown name -> next
-        if (r.status === 429 || r.status === 503) continue; // congested -> next
-        if (r.ok) activeModel = m;
+        const resp = await call(m);
+        if (resp.status === 404) continue;                 // unknown name -> next
+        if (resp.status === 429 || resp.status === 503) {  // congested -> next
+          sawOverload = true;
+          continue;
+        }
+        r = resp;
+        if (resp.ok) activeModel = m;
         break outer;
       }
     }
 
-    if (r && (r.status === 429 || r.status === 503)) {
-      // everything congested: friendly chat reply instead of an error
+    if (!r && sawOverload) {
+      // every usable model congested: friendly chat reply instead of an error
       return new Response(JSON.stringify({
         text: "😮‍💨 Der Lehrer ist gerade überlastet (hohe Nachfrage bei Google). Warte eine Minute und stell die Frage einfach noch einmal.",
       }), { headers: { "Content-Type": "application/json", ...corsHeaders(origin) } });
@@ -131,7 +138,7 @@ export default {
 
     if (!r || !r.ok) {
       let detail = r ? (await r.text()).slice(0, 300) : "";
-      if (!r || r.status === 404) {
+      if (!r) {
         // every candidate 404ed -> tell the caller which models this key CAN use
         try {
           const lm = await fetch("https://generativelanguage.googleapis.com/v1beta/models",
