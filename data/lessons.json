@@ -1,411 +1,2815 @@
 [
-  {
-    "id": "7QfbadOW9uY",
-    "title": "Indefinite Pronouns and Adverbs",
-    "level": "A2",
-    "topic": "Pronomen",
-    "readMinutes": 3,
-    "rule": "Indefinite pronouns and adverbs describe non-specific people, things, or places. The most common pairs are **alles/nichts** (everything/nothing), **etwas/nichts** (something/nothing), **jemand/niemand** (somebody/nobody), **überall/nirgendwo** (everywhere/nowhere), and **irgendjemand/irgendetwas** (anyone/anything). Use these pronouns and adverbs to talk about vague or unspecified objects, people, or locations without stating exactly what, who, or where.",
-    "table": null,
-    "examples": [
-      {
-        "de": "Hast du alles verstanden?",
-        "en": "Did you understand everything?",
-        "note": "Using alles (everything) in a question"
-      },
-      {
-        "de": "Nein, ich habe nichts verstanden.",
-        "en": "No, I didn't understand anything.",
-        "note": "Using nichts (nothing) in a negative response"
-      },
-      {
-        "de": "Hast du etwas gesagt?",
-        "en": "Did you say something?",
-        "note": "Using etwas (something) in a question"
-      },
-      {
-        "de": "Nein, ich habe nichts gesagt.",
-        "en": "No, I didn't say anything.",
-        "note": "nichts in answer to etwas question"
-      },
-      {
-        "de": "Ich habe überall gesucht.",
-        "en": "I looked everywhere.",
-        "note": "überall (everywhere) describes the extent"
-      },
-      {
-        "de": "Spricht hier jemand gutes Englisch?",
-        "en": "Does anyone speak good English here?",
-        "note": "jemand (someone) in a question"
-      }
-    ],
-    "mistakes": [
-      "✗ Using nichts in questions → ✓ Use etwas in questions (Hast du etwas?) and nichts only in negations (Ich habe nichts)",
-      "✗ Forgetting that jemand/niemand never change form → ✓ These pronouns remain invariant regardless of case (same form in nominative, accusative, dative)",
-      "✗ Mixing up überall/nirgendwo with specific places → ✓ Use these for non-specific locations; for specific places use actual location names"
-    ],
-    "video": {
-      "url": "https://youtu.be/7QfbadOW9uY",
-      "chapters": [
-        {"t": "00:00", "label": "Introduction to indefinite pronouns"},
-        {"t": "01:16", "label": "Alles/Nichts and Etwas/Nichts pairs"},
-        {"t": "04:12", "label": "Niemals/Nie adverbs for negation"},
-        {"t": "06:14", "label": "Überall/Nirgendwo (everywhere/nowhere)"},
-        {"t": "08:48", "label": "Jemand/Niemand (somebody/nobody)"},
-        {"t": "13:41", "label": "Irgendetwas/Irgendjemand (anything/anyone)"}
-      ]
+ {
+  "id": "7QfbadOW9uY",
+  "title": "Indefinite Pronouns and Adverbs",
+  "level": "A2",
+  "topic": "Pronomen",
+  "readMinutes": 3,
+  "rule": "Indefinite pronouns and adverbs describe non-specific people, things, or places. The most common pairs are **alles/nichts** (everything/nothing), **etwas/nichts** (something/nothing), **jemand/niemand** (somebody/nobody), **überall/nirgendwo** (everywhere/nowhere), and **irgendjemand/irgendetwas** (anyone/anything). Use these pronouns and adverbs to talk about vague or unspecified objects, people, or locations without stating exactly what, who, or where.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Hast du alles verstanden?",
+    "en": "Did you understand everything?",
+    "note": "Using alles (everything) in a question"
+   },
+   {
+    "de": "Nein, ich habe nichts verstanden.",
+    "en": "No, I didn't understand anything.",
+    "note": "Using nichts (nothing) in a negative response"
+   },
+   {
+    "de": "Hast du etwas gesagt?",
+    "en": "Did you say something?",
+    "note": "Using etwas (something) in a question"
+   },
+   {
+    "de": "Nein, ich habe nichts gesagt.",
+    "en": "No, I didn't say anything.",
+    "note": "nichts in answer to etwas question"
+   },
+   {
+    "de": "Ich habe überall gesucht.",
+    "en": "I looked everywhere.",
+    "note": "überall (everywhere) describes the extent"
+   },
+   {
+    "de": "Spricht hier jemand gutes Englisch?",
+    "en": "Does anyone speak good English here?",
+    "note": "jemand (someone) in a question"
+   }
+  ],
+  "mistakes": [
+   "✗ Using nichts in questions → ✓ Use etwas in questions (Hast du etwas?) and nichts only in negations (Ich habe nichts)",
+   "✗ Forgetting that jemand/niemand never change form → ✓ These pronouns remain invariant regardless of case (same form in nominative, accusative, dative)",
+   "✗ Mixing up überall/nirgendwo with specific places → ✓ Use these for non-specific locations; for specific places use actual location names"
+  ],
+  "video": {
+   "url": "https://youtu.be/7QfbadOW9uY",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to indefinite pronouns"
+    },
+    {
+     "t": "01:16",
+     "label": "Alles/Nichts and Etwas/Nichts pairs"
+    },
+    {
+     "t": "04:12",
+     "label": "Niemals/Nie adverbs for negation"
+    },
+    {
+     "t": "06:14",
+     "label": "Überall/Nirgendwo (everywhere/nowhere)"
+    },
+    {
+     "t": "08:48",
+     "label": "Jemand/Niemand (somebody/nobody)"
+    },
+    {
+     "t": "13:41",
+     "label": "Irgendetwas/Irgendjemand (anything/anyone)"
     }
-  },
-  {
-    "id": "apc6LqSQU-4",
-    "title": "Relative Clauses with Prepositions",
-    "level": "B1",
-    "topic": "Relativsätze",
-    "readMinutes": 3,
-    "rule": "Relative clauses with prepositions combine the rules of relative pronouns and prepositions. The **relative pronoun** must match the noun's gender and number, but its **case** is determined by the preposition. The preposition always comes first, directly after the comma, followed by the relative pronoun. Most two-way prepositions (**wechselpräpositionen** like **auf, in, an**) take the accusative when indicating movement (wohin?) and dative for location (wo?).",
-    "table": [
-      ["Preposition", "Case", "Example"],
-      ["mit, von, bei, in, an", "Dative", "mit dem Arzt"],
-      ["ohne, für, gegen, um", "Accusative", "ohne die Freundin"],
-      ["auf, in, an", "Accusative/Dative", "auf dem Markt (location) / auf den Markt (movement)"]
-    ],
-    "examples": [
-      {
-        "de": "Ich habe einen Arzt, mit dem ich manchmal Kaffee trinke.",
-        "en": "I have a doctor with whom I sometimes have coffee.",
-        "note": "mit (dative preposition) → dem (dative)"
-      },
-      {
-        "de": "Das ist meine Katze, ohne die mein Bett nicht sauber wäre.",
-        "en": "This is my cat, without which my bed would not be clean.",
-        "note": "ohne (accusative preposition) → die (accusative), feminine to match Katze"
-      },
-      {
-        "de": "Das ist die Prüfung, für die du seit Wochen lernst.",
-        "en": "This is the exam for which you have been studying for weeks.",
-        "note": "für (accusative preposition) → die (accusative feminine)"
-      },
-      {
-        "de": "Hier ist der Markt, auf den wir morgen früh gehen.",
-        "en": "Here is the market we will go to early tomorrow morning.",
-        "note": "auf with movement (Wohin?) → den (accusative)"
-      },
-      {
-        "de": "Das ist das Tablet, auf dem du schreiben kannst.",
-        "en": "This is the tablet on which you can write.",
-        "note": "auf with dative (location): das Tablet → das becomes dem in dative"
-      },
-      {
-        "de": "Erinnere dich an die Frau, von der du die Couch bekommen hast.",
-        "en": "Remember the woman from whom you got the couch.",
-        "note": "von (dative preposition) → der (dative feminine)"
-      }
-    ],
-    "mistakes": [
-      "✗ Matching relative pronoun case to the main clause case instead of preposition → ✓ The preposition determines the case, not the main clause function",
-      "✗ Placing the preposition after the pronoun → ✓ Preposition always comes immediately after the comma, before the pronoun",
-      "✗ Using auf always with accusative → ✓ auf is a wechselpräposition: use dative for location (Wo?) and accusative for movement (Wohin?)"
-    ],
-    "video": {
-      "url": "https://youtu.be/apc6LqSQU-4",
-      "chapters": [
-        {"t": "00:02", "label": "Relative clauses overview and features"},
-        {"t": "01:39", "label": "Basic relative clauses without prepositions"},
-        {"t": "02:25", "label": "Introducing relative clauses with prepositions"},
-        {"t": "03:51", "label": "Dative prepositions (mit, von, in, bei)"},
-        {"t": "06:12", "label": "Accusative prepositions (ohne, für)"},
-        {"t": "08:49", "label": "Two-way prepositions (auf) and their case rules"}
-      ]
-    }
-  },
-  {
-    "id": "ECoFyL5uNKM",
-    "title": "Modal Particles (Modalpartikeln)",
-    "level": "B1",
-    "topic": "Satzbau & Konnektoren",
-    "readMinutes": 4,
-    "rule": "**Modalpartikeln** are small, unstressed words that modify the tone and meaning of a sentence without changing its core grammar. They are found mainly in spoken German and are nearly impossible to translate literally. The most common ones include **ja, aber, doch, denn, eben, mal, schon, halt, wohl**. Modal particles express feelings, emphasize intentions, show approval/disapproval, or indicate astonishment. They typically appear in the middle of the sentence (position 3) after the conjugated verb, never in position 1.",
-    "table": null,
-    "examples": [
-      {
-        "de": "Das schmeckt ja sehr gut!",
-        "en": "That tastes really good!",
-        "note": "ja emphasizes positive surprise"
-      },
-      {
-        "de": "Komm ja nicht zu spät!",
-        "en": "Just don't be late!",
-        "note": "ja in imperative expresses warning"
-      },
-      {
-        "de": "Was kaufst du denn?",
-        "en": "What are you buying? (showing interest)",
-        "note": "denn shows genuine interest in questions"
-      },
-      {
-        "de": "Das wird wohl bald regnen.",
-        "en": "It will probably rain soon.",
-        "note": "wohl expresses uncertainty and assumption"
-      },
-      {
-        "de": "Dreh bitte mal die Musik leiser.",
-        "en": "Please turn down the music a bit.",
-        "note": "mal makes the request friendlier and less binding"
-      },
-      {
-        "de": "Das war ja gar nicht so schwierig!",
-        "en": "That wasn't so difficult after all!",
-        "note": "ja emphasizes surprise at outcome"
-      }
-    ],
-    "mistakes": [
-      "✗ Placing modal particles in sentence position 1 → ✓ Modal particles appear after the conjugated verb (typically position 3); they can never be in position 1",
-      "✗ Stressing or emphasizing the modal particle when speaking → ✓ Modal particles are always unstressed and pronounced lightly in natural speech",
-      "✗ Using the same modal particle in all situations → ✓ Each particle has specific uses; context determines which one is appropriate (ja for common knowledge, doch for suggestions, mal for friendly requests)"
-    ],
-    "video": {
-      "url": "https://youtu.be/ECoFyL5uNKM",
-      "chapters": [
-        {"t": "00:01", "label": "What are modal particles and why they matter"},
-        {"t": "03:03", "label": "Eben - expressing surprise and emphasis"},
-        {"t": "04:04", "label": "Bloß/Nur - giving warnings in imperative"},
-        {"t": "05:41", "label": "Denn - showing interest and surprise in questions"},
-        {"t": "07:21", "label": "Eigentlich/Ja - showing reality and changing subjects"},
-        {"t": "10:14", "label": "Doch - making suggestions and expressing reproach"},
-        {"t": "12:32", "label": "Mal - friendly requests and casual tone"}
-      ]
-    }
-  },
-  {
-    "id": "iT8XuUj2fN8",
-    "title": "50 Must-Know German Separable Verbs (A1-B1)",
-    "level": "B1",
-    "topic": "Verben & Zeiten",
-    "readMinutes": 5,
-    "rule": "This lesson practices the 50 most common **separable verbs** (trennbare Verben) at A1-B1 level. Separable verbs consist of a **prefix** (ab, an, auf, aus, mit, zu, etc.) and a root verb. In conjugated form, the prefix separates and moves to the end of a main clause or combines with the past participle. Approximately 25% of German verbs are separable, making them essential for speaking and understanding natural German.",
-    "table": null,
-    "examples": [
-      {
-        "de": "Der Zug fährt gleich ab.",
-        "en": "The train is leaving soon.",
-        "note": "abfahren - prefix ab separates: fährt...ab"
-      },
-      {
-        "de": "Ich hole dich am Flughafen ab.",
-        "en": "I'll pick you up at the airport.",
-        "note": "abholen - prefix ab separates: hole...ab"
-      },
-      {
-        "de": "Du kannst jetzt anfangen.",
-        "en": "You can start now.",
-        "note": "anfangen - prefix an separates: kannst...anfangen (infinitive shows prefix attaches)"
-      },
-      {
-        "de": "Tim hat heute eine rote Jacke an.",
-        "en": "Tim is wearing a red jacket today.",
-        "note": "anhaben (colloquial) - prefix an: hat...an"
-      },
-      {
-        "de": "Wann kommt dein Flugzeug an?",
-        "en": "When does your plane arrive?",
-        "note": "ankommen - prefix an separates: kommt...an"
-      },
-      {
-        "de": "Du solltest deinen Traum nicht aufgeben.",
-        "en": "You shouldn't give up on your dream.",
-        "note": "aufgeben - prefix auf stays with infinitive form"
-      }
-    ],
-    "mistakes": [
-      "✗ Forgetting that the prefix separates in main clauses → ✓ In main clauses, the prefix always moves to the end (Ich fahre ab), but in infinitive forms it stays attached (abfahren)",
-      "✗ Separating the prefix in subordinate clauses or infinitives → ✓ In subordinate clauses (Ich weiß, dass der Zug abfährt) and infinitives, the prefix remains attached",
-      "✗ Mixing up prefixes or guessing meanings → ✓ Learn common prefixes and their meanings: ab- (off/away), an- (to/at), auf- (up/open), aus- (out), mit- (with/along), zu- (to/closed)"
-    ],
-    "video": {
-      "url": "https://youtu.be/iT8XuUj2fN8",
-      "chapters": [
-        {"t": "00:00", "label": "Introduction to separable verbs"},
-        {"t": "01:22", "label": "Prefix ab- (abfahren, abholen, abschalten)"},
-        {"t": "03:09", "label": "Prefix an- (anfangen, anziehen, anrufen, ankommen)"},
-        {"t": "06:43", "label": "Prefix auf- (aufgeben, aufhören, aufmachen, aufräumen)"},
-        {"t": "08:38", "label": "Prefix aus- (ausgeben, ausschalten, auspacken, aussteigen)"},
-        {"t": "11:17", "label": "Prefix ein- (einkaufen, einladen, einpacken)"}
-      ]
-    }
-  },
-  {
-    "id": "m36urPvYD0A",
-    "title": "German Word Order (Satzbau) - The Kingdom Approach",
-    "level": "B1",
-    "topic": "Satzbau & Konnektoren",
-    "readMinutes": 5,
-    "rule": "German word order follows three essential rules: (1) **Personal pronouns** (the 'magician') are most important and appear closest to the verb, usually before noun objects; (2) **Time information** (temporal adverbs) comes before regular objects but after personal pronouns; (3) **Adverbs** generally follow the hierarchy: personal pronouns > time adverbs > regular objects > location adverbs. In main clauses, the conjugated verb always occupies position 2. In subordinate clauses, the verb moves to the end. Emphasis can be achieved by moving elements to the beginning or end of the sentence.",
-    "table": [
-      ["Element", "Position", "Example"],
-      ["Verb (Hauptsatz)", "Position 2", "Er ruft...zurück"],
-      ["Personal pronoun", "After verb, before objects", "Er ruft mich...zurück"],
-      ["Time information", "After pronouns, before objects", "Er ruft mich am Montag zurück"],
-      ["Direct object", "After time adverbs", "Er ruft mich am Montag zurück"],
-      ["Location adverb", "End of clause", "Er geht ins Kino"]
-    ],
-    "examples": [
-      {
-        "de": "Ich gebe ihm meinen Stift.",
-        "en": "I give him my pen.",
-        "note": "Personal pronoun (ihm) before accusative object (Stift)"
-      },
-      {
-        "de": "Meinen Stift gebe ich ihm.",
-        "en": "My pen I give to him.",
-        "note": "Accusative object moved to position 1 for emphasis"
-      },
-      {
-        "de": "Er ruft mich am Montag zurück.",
-        "en": "He will call me back on Monday.",
-        "note": "Personal pronoun before time information: mich < am Montag"
-      },
-      {
-        "de": "Am Montag ruft er mich zurück.",
-        "en": "On Monday, he will call me back.",
-        "note": "Time information moved to position 1 for emphasis"
-      },
-      {
-        "de": "Meine Frau hat mir gestern eine Uhr geschenkt.",
-        "en": "My wife gave me a watch yesterday.",
-        "note": "Order: verb (hat) < pronoun (mir) < time (gestern) < object (Uhr)"
-      },
-      {
-        "de": "Er hat gesagt, dass er mich am Montag zurückruft.",
-        "en": "He said that he would call me back on Monday.",
-        "note": "In subordinate clause (dass), verb moves to end: zurückruft"
-      }
-    ],
-    "mistakes": [
-      "✗ Placing time information before personal pronouns → ✓ Personal pronouns have priority and come before time adverbs (Ich rufe dich am Montag an, not Ich rufe am Montag dich an)",
-      "✗ Placing the regular object before personal pronouns → ✓ Personal pronouns are more important than noun objects; pronouns come first (Ich gebe ihm den Stift, not Ich gebe den Stift ihm)",
-      "✗ Placing the verb in position other than 2 in main clauses → ✓ In main clauses, the conjugated verb must always be in position 2 (Er ruft...an)"
-    ],
-    "video": {
-      "url": "https://youtu.be/m36urPvYD0A",
-      "chapters": [
-        {"t": "00:33", "label": "Introduction and TeKaMoLo overview"},
-        {"t": "03:07", "label": "Three key rules: pronouns, time, adverbs"},
-        {"t": "06:17", "label": "The 'magician' - personal pronoun hierarchy"},
-        {"t": "09:00", "label": "Personal pronoun placement - complex cases"},
-        {"t": "12:02", "label": "Rule 2: Time information placement"},
-        {"t": "15:44", "label": "Main clauses (Hauptsatz) vs. subordinate clauses (Nebensatz)"}
-      ]
-    }
-  },
-  {
-    "id": "nkagdTprcHU",
-    "title": "The Past Perfect Tense (Plusquamperfekt)",
-    "level": "B1",
-    "topic": "Verben & Zeiten",
-    "readMinutes": 3,
-    "rule": "The **Plusquamperfekt** (past perfect) describes an action that occurred before another past action. It is formed using the **auxiliary verb in simple past** (**hatte** or **war**) plus the **past participle** of the main verb. Although rarely used in spoken German, it appears frequently in written texts, literature, and formal narratives. It is essential when using the conjunction **nachdem** (after), which requires Plusquamperfekt in the first clause.",
-    "table": [
-      ["Tense", "Formation", "Example", "English"],
-      ["Präsens Perfekt", "haben/sein (present) + participle", "Ich habe gekauft", "I have bought"],
-      ["Plusquamperfekt", "haben/sein (simple past) + participle", "Ich hatte gekauft", "I had bought"],
-      ["Plusquamperfekt (sein)", "hatte/war (simple past) + participle", "Ich war gegangen", "I had gone"]
-    ],
-    "examples": [
-      {
-        "de": "Ich hatte gestern eine Tasche gekauft.",
-        "en": "I had bought a bag yesterday.",
-        "note": "Regular verb with haben: hatte + gekauft"
-      },
-      {
-        "de": "Ich war gestern ins Kino gegangen.",
-        "en": "I had gone to the movies yesterday.",
-        "note": "Movement verb with sein: war + gegangen"
-      },
-      {
-        "de": "Tom hatte in Wien gelebt.",
-        "en": "Tom had lived in Vienna.",
-        "note": "Before another past action (implied)"
-      },
-      {
-        "de": "Wir waren bei Tom zu Hause geblieben.",
-        "en": "We had stayed at Tom's place.",
-        "note": "Motion verb bleiben uses sein: waren + geblieben"
-      },
-      {
-        "de": "Nachdem er die Tür geschlossen hatte, verließ er das Haus.",
-        "en": "After he had closed the door, he left the house.",
-        "note": "Nachdem requires Plusquamperfekt in the first clause"
-      }
-    ],
-    "mistakes": [
-      "✗ Using Präsens Perfekt when describing what happened first → ✓ Use Plusquamperfekt (hatte/war + participle) to show that one past action happened before another",
-      "✗ Putting the participle in wrong position → ✓ The participle always comes at the end of the clause in Plusquamperfekt",
-      "✗ Forgetting which verbs use sein vs. haben → ✓ Movement verbs and state-of-being verbs use sein (sein, gehen, fahren); most others use haben"
-    ],
-    "video": {
-      "url": "https://youtu.be/nkagdTprcHU",
-      "chapters": [
-        {"t": "00:00", "label": "Overview of German tenses and their frequency"},
-        {"t": "01:20", "label": "Why Plusquamperfekt is less important in spoken German"},
-        {"t": "04:07", "label": "Timeline - when and where Plusquamperfekt is used"},
-        {"t": "05:16", "label": "Grammar: formation and difference from Präsens Perfekt"},
-        {"t": "06:50", "label": "Examples and practice sentences"},
-        {"t": "09:40", "label": "The conjunction nachdem and required tense"}
-      ]
-    }
-  },
-  {
-    "id": "OR79TLWYMzE",
-    "title": "Konjunktiv II Practice: würden, hätten, wären",
-    "level": "A2",
-    "topic": "Konjunktiv",
-    "readMinutes": 2,
-    "rule": "This lesson practices the three most important **Konjunktiv II** forms: **würden** (would), **hätten** (would have), and **wären** (would be). Konjunktiv II is used to express unreal wishes, hypothetical situations, and polite requests. Combined with the adverb **gerne** or **gern**, these forms create polite expressions of desire (e.g., \"Ich würde gerne...\" = I would like to...; \"Ich hätte gerne...\" = I would like to have...; \"Ich wäre gerne...\" = I would like to be...).",
-    "table": null,
-    "examples": [
-      {
-        "de": "Sie würden gerne so muskulös wie er sein.",
-        "en": "They would like to be as muscular as he is.",
-        "note": "würden + gerne for polite desire"
-      },
-      {
-        "de": "Ich würde nicht gerne mit ihm tauschen.",
-        "en": "I wouldn't like to swap with him.",
-        "note": "würden negated with nicht gerne"
-      },
-      {
-        "de": "Würdest du gerne mal nach Venedig fahren?",
-        "en": "Would you like to go to Venice sometime?",
-        "note": "Question form: würdest du...?"
-      },
-      {
-        "de": "Ich wäre dort wirklich sehr verängstigt.",
-        "en": "I would be really scared there.",
-        "note": "wären expresses hypothetical emotion"
-      },
-      {
-        "de": "Er würde gerne einen echten Freund haben.",
-        "en": "He would like to have a real friend.",
-        "note": "hätte for possession with gerne"
-      },
-      {
-        "de": "Wir würden gerne zwei Glas Riesling.",
-        "en": "We would like two glasses of Riesling.",
-        "note": "würden for ordering politely in restaurants"
-      }
-    ],
-    "mistakes": [
-      "✗ Using Präteritum instead of Konjunktiv II → ✓ Use würde/hätte/wäre forms to express hypothetical or unreal wishes, not past facts",
-      "✗ Forgetting to use gerne/gern with polite requests → ✓ Add gerne after würde/hätte/wäre to make polite requests (Ich würde gerne...)",
-      "✗ Mixing the three forms inappropriately → ✓ Use würde for actions, hätte for possession/completed actions, wäre for states of being"
-    ],
-    "video": {
-      "url": "https://youtu.be/OR79TLWYMzE",
-      "chapters": [
-        {"t": "00:00", "label": "Introduction to Konjunktiv II forms"},
-        {"t": "00:33", "label": "Overview: würden, hätten, wären and their uses"},
-        {"t": "01:20", "label": "Practice exercise: 15 sentences to classify and use correctly"}
-      ]
-    }
+   ]
   }
+ },
+ {
+  "id": "apc6LqSQU-4",
+  "title": "Relative Clauses with Prepositions",
+  "level": "B1",
+  "topic": "Relativsätze",
+  "readMinutes": 3,
+  "rule": "Relative clauses with prepositions combine the rules of relative pronouns and prepositions. The **relative pronoun** must match the noun's gender and number, but its **case** is determined by the preposition. The preposition always comes first, directly after the comma, followed by the relative pronoun. Most two-way prepositions (**wechselpräpositionen** like **auf, in, an**) take the accusative when indicating movement (wohin?) and dative for location (wo?).",
+  "table": [
+   [
+    "Preposition",
+    "Case",
+    "Example"
+   ],
+   [
+    "mit, von, bei, in, an",
+    "Dative",
+    "mit dem Arzt"
+   ],
+   [
+    "ohne, für, gegen, um",
+    "Accusative",
+    "ohne die Freundin"
+   ],
+   [
+    "auf, in, an",
+    "Accusative/Dative",
+    "auf dem Markt (location) / auf den Markt (movement)"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich habe einen Arzt, mit dem ich manchmal Kaffee trinke.",
+    "en": "I have a doctor with whom I sometimes have coffee.",
+    "note": "mit (dative preposition) → dem (dative)"
+   },
+   {
+    "de": "Das ist meine Katze, ohne die mein Bett nicht sauber wäre.",
+    "en": "This is my cat, without which my bed would not be clean.",
+    "note": "ohne (accusative preposition) → die (accusative), feminine to match Katze"
+   },
+   {
+    "de": "Das ist die Prüfung, für die du seit Wochen lernst.",
+    "en": "This is the exam for which you have been studying for weeks.",
+    "note": "für (accusative preposition) → die (accusative feminine)"
+   },
+   {
+    "de": "Hier ist der Markt, auf den wir morgen früh gehen.",
+    "en": "Here is the market we will go to early tomorrow morning.",
+    "note": "auf with movement (Wohin?) → den (accusative)"
+   },
+   {
+    "de": "Das ist das Tablet, auf dem du schreiben kannst.",
+    "en": "This is the tablet on which you can write.",
+    "note": "auf with dative (location): das Tablet → das becomes dem in dative"
+   },
+   {
+    "de": "Erinnere dich an die Frau, von der du die Couch bekommen hast.",
+    "en": "Remember the woman from whom you got the couch.",
+    "note": "von (dative preposition) → der (dative feminine)"
+   }
+  ],
+  "mistakes": [
+   "✗ Matching relative pronoun case to the main clause case instead of preposition → ✓ The preposition determines the case, not the main clause function",
+   "✗ Placing the preposition after the pronoun → ✓ Preposition always comes immediately after the comma, before the pronoun",
+   "✗ Using auf always with accusative → ✓ auf is a wechselpräposition: use dative for location (Wo?) and accusative for movement (Wohin?)"
+  ],
+  "video": {
+   "url": "https://youtu.be/apc6LqSQU-4",
+   "chapters": [
+    {
+     "t": "00:02",
+     "label": "Relative clauses overview and features"
+    },
+    {
+     "t": "01:39",
+     "label": "Basic relative clauses without prepositions"
+    },
+    {
+     "t": "02:25",
+     "label": "Introducing relative clauses with prepositions"
+    },
+    {
+     "t": "03:51",
+     "label": "Dative prepositions (mit, von, in, bei)"
+    },
+    {
+     "t": "06:12",
+     "label": "Accusative prepositions (ohne, für)"
+    },
+    {
+     "t": "08:49",
+     "label": "Two-way prepositions (auf) and their case rules"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ECoFyL5uNKM",
+  "title": "Modal Particles (Modalpartikeln)",
+  "level": "B1",
+  "topic": "Satzbau & Konnektoren",
+  "readMinutes": 4,
+  "rule": "**Modalpartikeln** are small, unstressed words that modify the tone and meaning of a sentence without changing its core grammar. They are found mainly in spoken German and are nearly impossible to translate literally. The most common ones include **ja, aber, doch, denn, eben, mal, schon, halt, wohl**. Modal particles express feelings, emphasize intentions, show approval/disapproval, or indicate astonishment. They typically appear in the middle of the sentence (position 3) after the conjugated verb, never in position 1.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Das schmeckt ja sehr gut!",
+    "en": "That tastes really good!",
+    "note": "ja emphasizes positive surprise"
+   },
+   {
+    "de": "Komm ja nicht zu spät!",
+    "en": "Just don't be late!",
+    "note": "ja in imperative expresses warning"
+   },
+   {
+    "de": "Was kaufst du denn?",
+    "en": "What are you buying? (showing interest)",
+    "note": "denn shows genuine interest in questions"
+   },
+   {
+    "de": "Das wird wohl bald regnen.",
+    "en": "It will probably rain soon.",
+    "note": "wohl expresses uncertainty and assumption"
+   },
+   {
+    "de": "Dreh bitte mal die Musik leiser.",
+    "en": "Please turn down the music a bit.",
+    "note": "mal makes the request friendlier and less binding"
+   },
+   {
+    "de": "Das war ja gar nicht so schwierig!",
+    "en": "That wasn't so difficult after all!",
+    "note": "ja emphasizes surprise at outcome"
+   }
+  ],
+  "mistakes": [
+   "✗ Placing modal particles in sentence position 1 → ✓ Modal particles appear after the conjugated verb (typically position 3); they can never be in position 1",
+   "✗ Stressing or emphasizing the modal particle when speaking → ✓ Modal particles are always unstressed and pronounced lightly in natural speech",
+   "✗ Using the same modal particle in all situations → ✓ Each particle has specific uses; context determines which one is appropriate (ja for common knowledge, doch for suggestions, mal for friendly requests)"
+  ],
+  "video": {
+   "url": "https://youtu.be/ECoFyL5uNKM",
+   "chapters": [
+    {
+     "t": "00:01",
+     "label": "What are modal particles and why they matter"
+    },
+    {
+     "t": "03:03",
+     "label": "Eben - expressing surprise and emphasis"
+    },
+    {
+     "t": "04:04",
+     "label": "Bloß/Nur - giving warnings in imperative"
+    },
+    {
+     "t": "05:41",
+     "label": "Denn - showing interest and surprise in questions"
+    },
+    {
+     "t": "07:21",
+     "label": "Eigentlich/Ja - showing reality and changing subjects"
+    },
+    {
+     "t": "10:14",
+     "label": "Doch - making suggestions and expressing reproach"
+    },
+    {
+     "t": "12:32",
+     "label": "Mal - friendly requests and casual tone"
+    }
+   ]
+  }
+ },
+ {
+  "id": "iT8XuUj2fN8",
+  "title": "50 Must-Know German Separable Verbs (A1-B1)",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 5,
+  "rule": "This lesson practices the 50 most common **separable verbs** (trennbare Verben) at A1-B1 level. Separable verbs consist of a **prefix** (ab, an, auf, aus, mit, zu, etc.) and a root verb. In conjugated form, the prefix separates and moves to the end of a main clause or combines with the past participle. Approximately 25% of German verbs are separable, making them essential for speaking and understanding natural German.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Der Zug fährt gleich ab.",
+    "en": "The train is leaving soon.",
+    "note": "abfahren - prefix ab separates: fährt...ab"
+   },
+   {
+    "de": "Ich hole dich am Flughafen ab.",
+    "en": "I'll pick you up at the airport.",
+    "note": "abholen - prefix ab separates: hole...ab"
+   },
+   {
+    "de": "Du kannst jetzt anfangen.",
+    "en": "You can start now.",
+    "note": "anfangen - prefix an separates: kannst...anfangen (infinitive shows prefix attaches)"
+   },
+   {
+    "de": "Tim hat heute eine rote Jacke an.",
+    "en": "Tim is wearing a red jacket today.",
+    "note": "anhaben (colloquial) - prefix an: hat...an"
+   },
+   {
+    "de": "Wann kommt dein Flugzeug an?",
+    "en": "When does your plane arrive?",
+    "note": "ankommen - prefix an separates: kommt...an"
+   },
+   {
+    "de": "Du solltest deinen Traum nicht aufgeben.",
+    "en": "You shouldn't give up on your dream.",
+    "note": "aufgeben - prefix auf stays with infinitive form"
+   }
+  ],
+  "mistakes": [
+   "✗ Forgetting that the prefix separates in main clauses → ✓ In main clauses, the prefix always moves to the end (Ich fahre ab), but in infinitive forms it stays attached (abfahren)",
+   "✗ Separating the prefix in subordinate clauses or infinitives → ✓ In subordinate clauses (Ich weiß, dass der Zug abfährt) and infinitives, the prefix remains attached",
+   "✗ Mixing up prefixes or guessing meanings → ✓ Learn common prefixes and their meanings: ab- (off/away), an- (to/at), auf- (up/open), aus- (out), mit- (with/along), zu- (to/closed)"
+  ],
+  "video": {
+   "url": "https://youtu.be/iT8XuUj2fN8",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to separable verbs"
+    },
+    {
+     "t": "01:22",
+     "label": "Prefix ab- (abfahren, abholen, abschalten)"
+    },
+    {
+     "t": "03:09",
+     "label": "Prefix an- (anfangen, anziehen, anrufen, ankommen)"
+    },
+    {
+     "t": "06:43",
+     "label": "Prefix auf- (aufgeben, aufhören, aufmachen, aufräumen)"
+    },
+    {
+     "t": "08:38",
+     "label": "Prefix aus- (ausgeben, ausschalten, auspacken, aussteigen)"
+    },
+    {
+     "t": "11:17",
+     "label": "Prefix ein- (einkaufen, einladen, einpacken)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "m36urPvYD0A",
+  "title": "German Word Order (Satzbau) - The Kingdom Approach",
+  "level": "B1",
+  "topic": "Satzbau & Konnektoren",
+  "readMinutes": 5,
+  "rule": "German word order follows three essential rules: (1) **Personal pronouns** (the 'magician') are most important and appear closest to the verb, usually before noun objects; (2) **Time information** (temporal adverbs) comes before regular objects but after personal pronouns; (3) **Adverbs** generally follow the hierarchy: personal pronouns > time adverbs > regular objects > location adverbs. In main clauses, the conjugated verb always occupies position 2. In subordinate clauses, the verb moves to the end. Emphasis can be achieved by moving elements to the beginning or end of the sentence.",
+  "table": [
+   [
+    "Element",
+    "Position",
+    "Example"
+   ],
+   [
+    "Verb (Hauptsatz)",
+    "Position 2",
+    "Er ruft...zurück"
+   ],
+   [
+    "Personal pronoun",
+    "After verb, before objects",
+    "Er ruft mich...zurück"
+   ],
+   [
+    "Time information",
+    "After pronouns, before objects",
+    "Er ruft mich am Montag zurück"
+   ],
+   [
+    "Direct object",
+    "After time adverbs",
+    "Er ruft mich am Montag zurück"
+   ],
+   [
+    "Location adverb",
+    "End of clause",
+    "Er geht ins Kino"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich gebe ihm meinen Stift.",
+    "en": "I give him my pen.",
+    "note": "Personal pronoun (ihm) before accusative object (Stift)"
+   },
+   {
+    "de": "Meinen Stift gebe ich ihm.",
+    "en": "My pen I give to him.",
+    "note": "Accusative object moved to position 1 for emphasis"
+   },
+   {
+    "de": "Er ruft mich am Montag zurück.",
+    "en": "He will call me back on Monday.",
+    "note": "Personal pronoun before time information: mich < am Montag"
+   },
+   {
+    "de": "Am Montag ruft er mich zurück.",
+    "en": "On Monday, he will call me back.",
+    "note": "Time information moved to position 1 for emphasis"
+   },
+   {
+    "de": "Meine Frau hat mir gestern eine Uhr geschenkt.",
+    "en": "My wife gave me a watch yesterday.",
+    "note": "Order: verb (hat) < pronoun (mir) < time (gestern) < object (Uhr)"
+   },
+   {
+    "de": "Er hat gesagt, dass er mich am Montag zurückruft.",
+    "en": "He said that he would call me back on Monday.",
+    "note": "In subordinate clause (dass), verb moves to end: zurückruft"
+   }
+  ],
+  "mistakes": [
+   "✗ Placing time information before personal pronouns → ✓ Personal pronouns have priority and come before time adverbs (Ich rufe dich am Montag an, not Ich rufe am Montag dich an)",
+   "✗ Placing the regular object before personal pronouns → ✓ Personal pronouns are more important than noun objects; pronouns come first (Ich gebe ihm den Stift, not Ich gebe den Stift ihm)",
+   "✗ Placing the verb in position other than 2 in main clauses → ✓ In main clauses, the conjugated verb must always be in position 2 (Er ruft...an)"
+  ],
+  "video": {
+   "url": "https://youtu.be/m36urPvYD0A",
+   "chapters": [
+    {
+     "t": "00:33",
+     "label": "Introduction and TeKaMoLo overview"
+    },
+    {
+     "t": "03:07",
+     "label": "Three key rules: pronouns, time, adverbs"
+    },
+    {
+     "t": "06:17",
+     "label": "The 'magician' - personal pronoun hierarchy"
+    },
+    {
+     "t": "09:00",
+     "label": "Personal pronoun placement - complex cases"
+    },
+    {
+     "t": "12:02",
+     "label": "Rule 2: Time information placement"
+    },
+    {
+     "t": "15:44",
+     "label": "Main clauses (Hauptsatz) vs. subordinate clauses (Nebensatz)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "nkagdTprcHU",
+  "title": "The Past Perfect Tense (Plusquamperfekt)",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 3,
+  "rule": "The **Plusquamperfekt** (past perfect) describes an action that occurred before another past action. It is formed using the **auxiliary verb in simple past** (**hatte** or **war**) plus the **past participle** of the main verb. Although rarely used in spoken German, it appears frequently in written texts, literature, and formal narratives. It is essential when using the conjunction **nachdem** (after), which requires Plusquamperfekt in the first clause.",
+  "table": [
+   [
+    "Tense",
+    "Formation",
+    "Example",
+    "English"
+   ],
+   [
+    "Präsens Perfekt",
+    "haben/sein (present) + participle",
+    "Ich habe gekauft",
+    "I have bought"
+   ],
+   [
+    "Plusquamperfekt",
+    "haben/sein (simple past) + participle",
+    "Ich hatte gekauft",
+    "I had bought"
+   ],
+   [
+    "Plusquamperfekt (sein)",
+    "hatte/war (simple past) + participle",
+    "Ich war gegangen",
+    "I had gone"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich hatte gestern eine Tasche gekauft.",
+    "en": "I had bought a bag yesterday.",
+    "note": "Regular verb with haben: hatte + gekauft"
+   },
+   {
+    "de": "Ich war gestern ins Kino gegangen.",
+    "en": "I had gone to the movies yesterday.",
+    "note": "Movement verb with sein: war + gegangen"
+   },
+   {
+    "de": "Tom hatte in Wien gelebt.",
+    "en": "Tom had lived in Vienna.",
+    "note": "Before another past action (implied)"
+   },
+   {
+    "de": "Wir waren bei Tom zu Hause geblieben.",
+    "en": "We had stayed at Tom's place.",
+    "note": "Motion verb bleiben uses sein: waren + geblieben"
+   },
+   {
+    "de": "Nachdem er die Tür geschlossen hatte, verließ er das Haus.",
+    "en": "After he had closed the door, he left the house.",
+    "note": "Nachdem requires Plusquamperfekt in the first clause"
+   }
+  ],
+  "mistakes": [
+   "✗ Using Präsens Perfekt when describing what happened first → ✓ Use Plusquamperfekt (hatte/war + participle) to show that one past action happened before another",
+   "✗ Putting the participle in wrong position → ✓ The participle always comes at the end of the clause in Plusquamperfekt",
+   "✗ Forgetting which verbs use sein vs. haben → ✓ Movement verbs and state-of-being verbs use sein (sein, gehen, fahren); most others use haben"
+  ],
+  "video": {
+   "url": "https://youtu.be/nkagdTprcHU",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Overview of German tenses and their frequency"
+    },
+    {
+     "t": "01:20",
+     "label": "Why Plusquamperfekt is less important in spoken German"
+    },
+    {
+     "t": "04:07",
+     "label": "Timeline - when and where Plusquamperfekt is used"
+    },
+    {
+     "t": "05:16",
+     "label": "Grammar: formation and difference from Präsens Perfekt"
+    },
+    {
+     "t": "06:50",
+     "label": "Examples and practice sentences"
+    },
+    {
+     "t": "09:40",
+     "label": "The conjunction nachdem and required tense"
+    }
+   ]
+  }
+ },
+ {
+  "id": "OR79TLWYMzE",
+  "title": "Konjunktiv II Practice: würden, hätten, wären",
+  "level": "A2",
+  "topic": "Konjunktiv",
+  "readMinutes": 2,
+  "rule": "This lesson practices the three most important **Konjunktiv II** forms: **würden** (would), **hätten** (would have), and **wären** (would be). Konjunktiv II is used to express unreal wishes, hypothetical situations, and polite requests. Combined with the adverb **gerne** or **gern**, these forms create polite expressions of desire (e.g., \"Ich würde gerne...\" = I would like to...; \"Ich hätte gerne...\" = I would like to have...; \"Ich wäre gerne...\" = I would like to be...).",
+  "table": null,
+  "examples": [
+   {
+    "de": "Sie würden gerne so muskulös wie er sein.",
+    "en": "They would like to be as muscular as he is.",
+    "note": "würden + gerne for polite desire"
+   },
+   {
+    "de": "Ich würde nicht gerne mit ihm tauschen.",
+    "en": "I wouldn't like to swap with him.",
+    "note": "würden negated with nicht gerne"
+   },
+   {
+    "de": "Würdest du gerne mal nach Venedig fahren?",
+    "en": "Would you like to go to Venice sometime?",
+    "note": "Question form: würdest du...?"
+   },
+   {
+    "de": "Ich wäre dort wirklich sehr verängstigt.",
+    "en": "I would be really scared there.",
+    "note": "wären expresses hypothetical emotion"
+   },
+   {
+    "de": "Er würde gerne einen echten Freund haben.",
+    "en": "He would like to have a real friend.",
+    "note": "hätte for possession with gerne"
+   },
+   {
+    "de": "Wir würden gerne zwei Glas Riesling.",
+    "en": "We would like two glasses of Riesling.",
+    "note": "würden for ordering politely in restaurants"
+   }
+  ],
+  "mistakes": [
+   "✗ Using Präteritum instead of Konjunktiv II → ✓ Use würde/hätte/wäre forms to express hypothetical or unreal wishes, not past facts",
+   "✗ Forgetting to use gerne/gern with polite requests → ✓ Add gerne after würde/hätte/wäre to make polite requests (Ich würde gerne...)",
+   "✗ Mixing the three forms inappropriately → ✓ Use würde for actions, hätte for possession/completed actions, wäre for states of being"
+  ],
+  "video": {
+   "url": "https://youtu.be/OR79TLWYMzE",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to Konjunktiv II forms"
+    },
+    {
+     "t": "00:33",
+     "label": "Overview: würden, hätten, wären and their uses"
+    },
+    {
+     "t": "01:20",
+     "label": "Practice exercise: 15 sentences to classify and use correctly"
+    }
+   ]
+  }
+ },
+ {
+  "id": "1gfq9aOY0n0",
+  "title": "Adjektivdeklination im Genitiv",
+  "level": "B1",
+  "topic": "Adjektive",
+  "readMinutes": 3,
+  "rule": "In the genitive case, adjective endings vary depending on whether the article is definite, indefinite, or absent. With **definite articles** (der, des, der, der), the ending is always **-en**. With **indefinite articles** (ein, eines, einer, —), the ending is typically **-en** except in the plural which has no article form shown here. With **zero articles** (especially in headlines, advertisements, or formal constructions), adjectives take **-en** in all genders and plural.",
+  "table": [
+   [
+    "Article Type",
+    "Maskulin",
+    "Neutrum",
+    "Feminin",
+    "Plural"
+   ],
+   [
+    "Definite (der/des)",
+    "des -en",
+    "des -en",
+    "der -en",
+    "der -en"
+   ],
+   [
+    "Indefinite (ein)",
+    "eines -en",
+    "eines -en",
+    "einer -en",
+    "— -en"
+   ],
+   [
+    "Zero article",
+    "— -en",
+    "— -en",
+    "— -en",
+    "— -en"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Das ist das Auto des jungen Mannes.",
+    "en": "This is the young man's car.",
+    "note": "Definite article + maskulin: des + -en"
+   },
+   {
+    "de": "Trotz eines schweren Unfalls sieht das Auto gut aus.",
+    "en": "Despite a serious accident, the car looks good.",
+    "note": "Indefinite article + maskulin + genitive preposition trotz"
+   },
+   {
+    "de": "Das sind die Eltern des süßen Kindes.",
+    "en": "These are the sweet child's parents.",
+    "note": "Definite article + neutrum: des + -en"
+   },
+   {
+    "de": "Während einer wichtigen Sitzung darf sie das Handy nicht benutzen.",
+    "en": "During an important meeting, she is not allowed to use her phone.",
+    "note": "Indefinite article + feminin + preposition während"
+   },
+   {
+    "de": "Der Geschmack frischen Kaffees ist wunderbar.",
+    "en": "The taste of fresh coffee is wonderful.",
+    "note": "Zero article in genitive: frischen -es"
+   },
+   {
+    "de": "Die Erwartungen neuer Studenten sind hoch.",
+    "en": "The expectations of new students are high.",
+    "note": "Zero article plural: neuer -en"
+   }
+  ],
+  "mistakes": [
+   "✗ Das Auto des jung Mannes → ✓ Das Auto des jungen Mannes — adjective must take -en ending in genitive definite",
+   "✗ Die Eltern ein guten Kindes → ✓ Die Eltern eines guten Kindes — indefinite article must be 'eines' in genitive neutrum",
+   "✗ Trotz einen kurzen Unfalls → ✓ Trotz eines kurzen Unfalls — trotz requires genitive, and indefinite article needs -es",
+   "✗ Während wichtig Sitzung → ✓ Während einer wichtigen Sitzung — adjective and indefinite article must both take genitive forms"
+  ],
+  "video": {
+   "url": "https://youtu.be/1gfq9aOY0n0",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction and overview of adjective declension in genitive"
+    },
+    {
+     "t": "00:40",
+     "label": "Masculine examples with definite and indefinite articles"
+    },
+    {
+     "t": "01:26",
+     "label": "Neutral nouns in genitive with adjectives"
+    },
+    {
+     "t": "02:15",
+     "label": "Feminine nouns and genitive prepositions"
+    },
+    {
+     "t": "04:15",
+     "label": "Plural forms and examples"
+    },
+    {
+     "t": "05:37",
+     "label": "Summary table of all adjective endings and zero article uses"
+    }
+   ]
+  }
+ },
+ {
+  "id": "3dBWeOyYtbs",
+  "title": "Der Genitiv",
+  "level": "A2",
+  "topic": "Fälle",
+  "readMinutes": 2,
+  "rule": "The **Genitiv** (genitive case) expresses possession and belonging. Masculine and neuter nouns require an **-s** or **-es** suffix at the end of the word. Feminine and plural nouns do not add a suffix; only the article changes to **der**. The genitive is common in written German (newspapers, books) but rarely used in spoken German, where the dative with 'von' is preferred.",
+  "table": [
+   [
+    "",
+    "Article",
+    "Noun ending",
+    "Example"
+   ],
+   [
+    "Maskulin",
+    "des",
+    "+s (Chef→Chefs)",
+    "des Chefs"
+   ],
+   [
+    "Neutrum",
+    "des",
+    "+s (Hotel→Hotels)",
+    "des Hotels"
+   ],
+   [
+    "Feminin",
+    "der",
+    "—",
+    "der Uhr"
+   ],
+   [
+    "Plural",
+    "der",
+    "—",
+    "der Studenten"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Das ist das Auto des Chefs.",
+    "en": "This is the boss's car.",
+    "note": "Masculine genitive expressing possession"
+   },
+   {
+    "de": "Der Geschmack des Kaffees ist sehr gut.",
+    "en": "The taste of the coffee is very good.",
+    "note": "Masculine with -s ending in genitive"
+   },
+   {
+    "de": "Die Zimmer des Hotels sind sehr gemütlich.",
+    "en": "The rooms of the hotel are very cozy.",
+    "note": "Neutral genitive with -s ending"
+   },
+   {
+    "de": "Der Preis und die Qualität der Uhr sind super.",
+    "en": "The price and quality of the watch are excellent.",
+    "note": "Feminine genitive (no suffix change)"
+   },
+   {
+    "de": "Heute Abend korrigiere ich die Hausaufgaben der Studenten.",
+    "en": "This evening I am correcting the students' homework.",
+    "note": "Plural genitive (no suffix change)"
+   },
+   {
+    "de": "Das ist das Auto vom Chef.",
+    "en": "This is the boss's car (alternative).",
+    "note": "Dative alternative: genitive can be replaced with 'von' + dative in spoken German"
+   }
+  ],
+  "mistakes": [
+   "✗ Das Auto der Chef → ✓ Das Auto des Chefs — maskulin needs 'des' and -s suffix",
+   "✗ Die Zimmer von das Hotel → ✓ Die Zimmer des Hotels — genitive case required (or 'vom Hotel' in dative)",
+   "✗ Karins Handy → ✓ Karins Handy — proper names and family members add -s even when feminine",
+   "✗ Die Spiegel die Auto → ✓ Die Spiegel des Autos — wrong article; must use correct genitive form"
+  ],
+  "video": {
+   "url": "https://youtu.be/3dBWeOyYtbs",
+   "chapters": [
+    {
+     "t": "00:07",
+     "label": "Introduction to genitive case basics"
+    },
+    {
+     "t": "00:47",
+     "label": "Genitive expresses possession and belonging"
+    },
+    {
+     "t": "01:41",
+     "label": "Masculine genitive with -s ending"
+    },
+    {
+     "t": "03:27",
+     "label": "Neutral and feminine genitive examples"
+    },
+    {
+     "t": "04:20",
+     "label": "Plural genitive forms"
+    },
+    {
+     "t": "05:52",
+     "label": "Tips: proper names, dative alternative, genitive prepositions"
+    }
+   ]
+  }
+ },
+ {
+  "id": "80BuRlC2bzg",
+  "title": "The Four Meanings of noch",
+  "level": "B1",
+  "topic": "Wortschatz",
+  "readMinutes": 4,
+  "rule": "The adverb **noch** has four primary meanings in German, each used in different contexts. First, **'still'** describes an ongoing action or state that has not changed (Ich lebe noch in Taiwan). Second, **'still/yet'** with immer noch emphasizes that something takes longer than expected (Ich bin immer noch im Büro). Third, **'still left'** indicates remaining quantity or time (Hast du noch Geld?). Fourth, **'not yet'** appears in negative sentences with nicht or kein (Ich bin noch nicht fertig; Ich habe noch keinen Tisch reserviert). Additional meanings include 'even' (comparative adjectives) and 'another/additional' in context.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Ich lebe noch in Taiwan.",
+    "en": "I still live in Taiwan.",
+    "note": "Ongoing action: situation has not changed"
+   },
+   {
+    "de": "Ich bin immer noch im Büro.",
+    "en": "I'm still at the office.",
+    "note": "Immer noch emphasizes something takes longer than expected"
+   },
+   {
+    "de": "Hast du noch Geld?",
+    "en": "Do you still have money left?",
+    "note": "Noch meaning 'still left' or remaining quantity"
+   },
+   {
+    "de": "Maria ist noch nicht angekommen.",
+    "en": "Maria hasn't arrived yet.",
+    "note": "Noch nicht in negative sentence = 'not yet'"
+   },
+   {
+    "de": "Die mündliche Prüfung war noch schwieriger.",
+    "en": "The oral exam was even more difficult.",
+    "note": "Noch with comparative adjective = 'even'"
+   },
+   {
+    "de": "Möchtest du noch ein Stück Kuchen?",
+    "en": "Would you like another piece of cake?",
+    "note": "Noch = 'another' or 'additional'"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich bin noch im Büro (without context) → ✓ Ich bin immer noch im Büro — to emphasize expected duration use 'immer noch'",
+   "✗ Ich bin noch nicht fertig (without nicht) → ✓ Ich bin noch nicht fertig — 'not yet' requires 'noch' with 'nicht' or 'kein'",
+   "✗ Haben Sie noch Kaffee? (for 'more') → ✓ Möchten Sie noch einen Kaffee? — use 'noch' with article for 'another'",
+   "✗ Das Wetter ist noch gut → ✓ Das Wetter ist noch besser — 'noch' with even/more requires comparative form"
+  ],
+  "video": {
+   "url": "https://youtu.be/80BuRlC2bzg",
+   "chapters": [
+    {
+     "t": "00:37",
+     "label": "Introduction: four different meanings of noch"
+    },
+    {
+     "t": "01:11",
+     "label": "Noch meaning 'still' (ongoing action)"
+    },
+    {
+     "t": "02:33",
+     "label": "Noch with immer noch (longer than expected)"
+    },
+    {
+     "t": "04:11",
+     "label": "Noch meaning 'still left' (remaining quantity)"
+    },
+    {
+     "t": "05:20",
+     "label": "Noch nicht (not yet) in negative sentences"
+    },
+    {
+     "t": "08:27",
+     "label": "Noch meaning 'another/additional' and 'even'"
+    }
+   ]
+  }
+ },
+ {
+  "id": "8k__Y-Fwx1c",
+  "title": "Das Genitiv-S: Masculine and Neutral Nouns",
+  "level": "B1",
+  "topic": "Fälle",
+  "readMinutes": 2,
+  "rule": "In the genitive case, masculine and neutral nouns must add either **-s** or **-es** to the nominative form. Use **-s** for nouns ending in vowels (a, e, i, o, u), the diminutives **-chen**, **-lein**, or consonants like l, m, n, r, er. Use **-es** when the nominative ends in s-sounds: **-s, -ss, -ß, -x, -z, -tz**. Special exceptions: masculine nouns describing persons or animals ending in **-ant, -ent, -ist** add **-en** instead; those ending in **-e** add **-n**. Proper names ending in s-sounds add an apostrophe instead of a suffix (Iris' Hund).",
+  "table": [
+   [
+    "Ending",
+    "Rule",
+    "Example",
+    "Genitive"
+   ],
+   [
+    "vowel, -el, -em, -en, -er, -chen",
+    "add -s",
+    "Tisch, Löffel, Kaffee",
+    "des Tisches, des Löffels, des Kaffees"
+   ],
+   [
+    "-s, -ss, -ß, -x, -z, -tz",
+    "add -es",
+    "Haus, Fluss, Pilz",
+    "des Hauses, des Flusses, des Pilzes"
+   ],
+   [
+    "person/-animal -ant/-ent/-ist",
+    "add -en",
+    "Student, Präsident",
+    "des Studenten, des Präsidenten"
+   ],
+   [
+    "person/-animal -e",
+    "add -n",
+    "Junge, Hase",
+    "des Jungen, des Hasen"
+   ],
+   [
+    "proper name -s-sound",
+    "add apostrophe",
+    "Iris, Max",
+    "Iris' Hund, Max' Auto"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Die Größe der Geldbörse ist ideal.",
+    "en": "The size of the wallet is ideal.",
+    "note": "Geldbörse (f) in genitive; nouns ending in -e typically add -n"
+   },
+   {
+    "de": "Mir gefällt die Farbe des Autos.",
+    "en": "I like the color of the car.",
+    "note": "Auto ends in vowel -o; add -s for genitive"
+   },
+   {
+    "de": "Der Geschmack des Kaffees ist super.",
+    "en": "The taste of the coffee is super.",
+    "note": "Kaffee ends in -ee (double vowel); add -s"
+   },
+   {
+    "de": "Der Hund des Mädchens ist süß.",
+    "en": "The girl's dog is sweet.",
+    "note": "Mädchen ends in -chen (diminutive); add -s"
+   },
+   {
+    "de": "Die Prüfung des Studenten war gut.",
+    "en": "The student's exam was good.",
+    "note": "Student ends in -ent (person); add -en not -s"
+   },
+   {
+    "de": "Das Fell des Hasen ist grau.",
+    "en": "The hare's fur is gray.",
+    "note": "Hase ends in -e (animal); add -n"
+   }
+  ],
+  "mistakes": [
+   "✗ des Hauses → ✓ des Hauses — Haus ends in -s sound, add -es not just -s",
+   "✗ des Student → ✓ des Studenten — person nouns in -ent/-ist add -en not -s",
+   "✗ des Junge → ✓ des Jungen — masculine animate nouns ending in -e add -n",
+   "✗ Iris Hund → ✓ Iris' Hund — proper names ending in -s sound use apostrophe"
+  ],
+  "video": {
+   "url": "https://youtu.be/8k__Y-Fwx1c",
+   "chapters": [
+    {
+     "t": "00:03",
+     "label": "Introduction: when to use -s vs -es in genitive"
+    },
+    {
+     "t": "00:47",
+     "label": "When -s is used (vowels, -el, -em, -en, -er, -chen)"
+    },
+    {
+     "t": "01:33",
+     "label": "When -es is used (s-sounds: -s, -ss, -ß, -x, -z, -tz)"
+    },
+    {
+     "t": "02:44",
+     "label": "Special rules: -ant, -ent, -ist person nouns add -en"
+    },
+    {
+     "t": "03:43",
+     "label": "Special rules: animate -e nouns add -n"
+    },
+    {
+     "t": "04:48",
+     "label": "Proper names and useful tips"
+    }
+   ]
+  }
+ },
+ {
+  "id": "Ck1oAiK9t7U",
+  "title": "machen vs. tun",
+  "level": "B1",
+  "topic": "Wortschatz",
+  "readMinutes": 4,
+  "rule": "**Machen** and **tun** both translate to 'to do' but are used differently. **Machen** (more common) means to make, perform an action, create, or build something. It typically takes a direct accusative object and is the safer default. **Tun** is less common and primarily appears in fixed phrases and separable verbs: **weh tun** (to hurt), **leid tun** (to be sorry), **zu tun haben** (to be busy), **nur so tun** (to pretend), and **zu tun haben mit** (to have to do with). Always use machen for general actions; use tun only in the established expressions.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Jeden Morgen mache ich einen Kaffee.",
+    "en": "Every morning I make a coffee.",
+    "note": "Machen with direct object (accusative)"
+   },
+   {
+    "de": "Können Sie bitte ein Foto machen?",
+    "en": "Can you please take a picture?",
+    "note": "Machen for action/task; common polite request"
+   },
+   {
+    "de": "Mein Bein tut weh.",
+    "en": "My leg hurts.",
+    "note": "Weh tun (fixed expression) with dative: mir, dir, ihm tut weh"
+   },
+   {
+    "de": "Es tut mir leid, dass ich die Hausaufgaben vergessen habe.",
+    "en": "I'm sorry that I forgot the homework.",
+    "note": "Leid tun (fixed expression) with dative"
+   },
+   {
+    "de": "Ich habe viel zu tun.",
+    "en": "I have a lot to do.",
+    "note": "Zu tun haben (fixed expression) meaning 'to be busy'"
+   },
+   {
+    "de": "Das Thema hat nichts mit unserem Projekt zu tun.",
+    "en": "The topic has nothing to do with our project.",
+    "note": "Zu tun haben mit (fixed expression)"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich tue einen Kaffee → ✓ Ich mache einen Kaffee — use machen for creating/making actions",
+   "✗ Mein Bein macht weh → ✓ Mein Bein tut weh — only weh tun for pain, not machen",
+   "✗ Es macht mir leid → ✓ Es tut mir leid — only leid tun for apology, not machen",
+   "✗ Du machst nur so → ✓ Du tust nur so — only tun so (pretend), not machen so"
+  ],
+  "video": {
+   "url": "https://youtu.be/Ck1oAiK9t7U",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: machen vs. tun confusion"
+    },
+    {
+     "t": "00:36",
+     "label": "Machen: actions, tasks, activities, and creation"
+    },
+    {
+     "t": "02:29",
+     "label": "Machen examples and sport/hobby contexts"
+    },
+    {
+     "t": "04:36",
+     "label": "Tun: primary use in fixed expressions"
+    },
+    {
+     "t": "05:19",
+     "label": "Weh tun (to hurt) and reflexive use"
+    },
+    {
+     "t": "07:11",
+     "label": "Leid tun (to be sorry) and other fixed phrases"
+    },
+    {
+     "t": "09:39",
+     "label": "Summary of all fixed expressions with tun"
+    }
+   ]
+  }
+ },
+ {
+  "id": "cNUXmcmRE6Y",
+  "title": "Infinitiv mit zu",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 4,
+  "rule": "**Infinitive sentences with zu** are used after certain verbs, adjectives, and nouns. These are subjectless clauses where the infinitive phrase comes at the end. Common verb patterns: **anfangen**, **vergessen**, **vorhaben**, **empfehlen**, **hoffen**. Common noun patterns: **Zeit haben**, **Lust haben**, **Angst haben**. Common adjective patterns with **sein**: **gesund sein**, **erlaubt sein**; with **finden**: **toll finden**, **wichtig finden**. With separable verbs, **zu** is inserted between the prefix and verb (abzuwaschen, einzukaufen). Infinitive sentences are only possible when the subject is the same in both clauses or is an impersonal 'es'.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Ich hoffe die B1-Prüfung zu bestehen.",
+    "en": "I hope to pass the B1 exam.",
+    "note": "After hoffen: infinitive with zu; same subject"
+   },
+   {
+    "de": "Ich habe keine Zeit das Geschirr abzuwaschen.",
+    "en": "I have no time to wash the dishes.",
+    "note": "Zeit haben + separable verb: zu between prefix and verb"
+   },
+   {
+    "de": "Ich habe Lust morgen Tennis zu spielen.",
+    "en": "I feel like playing tennis tomorrow.",
+    "note": "Lust haben + infinitive with zu"
+   },
+   {
+    "de": "Ich habe Angst die Prüfung nicht zu schaffen.",
+    "en": "I'm afraid I won't pass the exam.",
+    "note": "Angst haben + infinitive with zu"
+   },
+   {
+    "de": "Es ist gesund täglich Sport zu machen.",
+    "en": "It is healthy to do sports daily.",
+    "note": "Impersonal 'es' + sein + infinitive; subjectless"
+   },
+   {
+    "de": "Lisa hofft die Prüfung zu schaffen.",
+    "en": "Lisa hopes to pass the exam.",
+    "note": "Hoffen: infinitive with zu when same subject"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich hoffe dass ich die Prüfung schaffe → (use instead) ✓ Ich hoffe die Prüfung zu schaffen — infinitive with zu is more elegant when subjects match",
+   "✗ Ich hoffe es regnet → (impossible) — different subjects; must use dass-clause: Ich hoffe, dass es bald regnet",
+   "✗ Ich habe Zeit essen zu gehen → ✓ Ich habe Zeit essen zu gehen / Ich habe Lust essen zu gehen — be consistent with prepositions",
+   "✗ Ich beginne zu sprechen — ✗ Ich beginne Deutsch zu sprechen → ✓ Ich fange an Deutsch zu sprechen — use anfangen, not beginnen, with zu-infinitive"
+  ],
+  "video": {
+   "url": "https://youtu.be/cNUXmcmRE6Y",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to infinitive sentences with zu"
+    },
+    {
+     "t": "00:47",
+     "label": "Verbs triggering zu-infinitive (anfangen, vergessen, vorhaben)"
+    },
+    {
+     "t": "03:23",
+     "label": "Key feature: zu-infinitive clauses are subjectless"
+    },
+    {
+     "t": "05:54",
+     "label": "Empfehlen, hoffen, and structure of main vs. dependent clause"
+    },
+    {
+     "t": "10:54",
+     "label": "Nouns: Zeit haben, Lust haben, Angst haben"
+    },
+    {
+     "t": "13:40",
+     "label": "Adjectives: gesund sein, erlaubt sein, toll finden"
+    }
+   ]
+  }
+ },
+ {
+  "id": "de1riTGsT3k",
+  "title": "The Top 50 Most Common German Verbs",
+  "level": "A1",
+  "topic": "Wortschatz",
+  "readMinutes": 6,
+  "rule": "This is a comprehensive vocabulary list of the 50 most frequently used German verbs, which cover approximately 95% of A1 exam vocabulary, 80% of A2, and 50% of B1. These verbs are essential for daily conversations and form the foundation of German communication. The list is organized alphabetically from A to Z and includes both regular and irregular verbs, as well as key modal verbs (können, müssen, dürfen, wollen, mögen). Knowing these verbs enables learners to manage 60-70% of basic daily conversations at A1-A2 level.",
+  "table": null,
+  "examples": [
+   {
+    "de": "Der Unterricht fängt um 14 Uhr an.",
+    "en": "Class starts at 2 PM.",
+    "note": "Anfangen (to start/begin) - separable verb"
+   },
+   {
+    "de": "Wann arbeitest du morgen?",
+    "en": "When are you working tomorrow?",
+    "note": "Arbeiten (to work) - A1 level"
+   },
+   {
+    "de": "Heute siehst du wirklich toll aus.",
+    "en": "You look really great today.",
+    "note": "Aussehen (to look/appear) - separable verb"
+   },
+   {
+    "de": "Ich finde das Bild sehr schön.",
+    "en": "I think the picture is very beautiful.",
+    "note": "Finden (to find/think) - has dual meaning"
+   },
+   {
+    "de": "Kannst du mir das bitte erklären?",
+    "en": "Can you please explain that to me?",
+    "note": "Können (can/to be able) - modal verb"
+   },
+   {
+    "de": "Seit wann lernst du Deutsch?",
+    "en": "How long have you been learning German?",
+    "note": "Lernen (to learn) - takes seit with dative for duration"
+   }
+  ],
+  "mistakes": [
+   "✗ Anfangen the class at 2 PM → ✓ Der Unterricht fängt um 14 Uhr an — verb placement in separable structure",
+   "✗ I'm staying at a hotel (using bleiben) → ✓ Ich übernachte in einem Hotel — bleiben means to remain, use übernachten for lodging",
+   "✗ Ich liebe dich nicht commonly said → ✓ Ich liebe dich — lieben is important; Germans are reserved with emotions",
+   "✗ Ich bringe mir einen Kaffee → ✓ Ich bringe dir einen Kaffee / Bringst du mir einen Kaffee? — bringen requires dative person and accusative object"
+  ],
+  "video": {
+   "url": "https://youtu.be/de1riTGsT3k",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: why these 50 verbs matter (60-70% of daily conversation)"
+    },
+    {
+     "t": "02:16",
+     "label": "Verbs A-C: anfangen, arbeiten, aussehen, bekommen, bleiben, brauchen, bringen"
+    },
+    {
+     "t": "06:19",
+     "label": "Verbs D-F: denken, dürfen, essen, fahren, finden, fragen"
+    },
+    {
+     "t": "10:00",
+     "label": "Verbs G-H: geben, gehen, glauben, haben, halten, heißen, helfen, hören"
+    },
+    {
+     "t": "14:43",
+     "label": "Verbs K-L: kaufen, kennen, kommen, können, lassen, leben, lernen, lieben, liegen"
+    },
+    {
+     "t": "19:42",
+     "label": "Verbs M-Z: machen, mögen, müssen, nehmen, sagen, schreiben, sehen, sein, spielen, sprechen"
+    },
+    {
+     "t": "32:49",
+     "label": "Bonus: the top 10 most important verbs and memorization tips"
+    }
+   ]
+  }
+ },
+ {
+  "id": "i34ICN0PzJY",
+  "title": "Passive Voice in Past Tenses: Präteritum & Perfekt",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 3,
+  "rule": "The passive voice in past tenses uses different auxiliary verbs and structures. **Präteritum (simple past)** uses **wurden** + past participle: \"Die Schuhe wurden geputzt\" (The shoes were cleaned). **Perfekt (present perfect)** uses **ist/sind** + past participle + **worden**: \"Die Schuhe sind geputzt worden.\" The key difference is the auxiliary verb (wurden vs. sein) and the position of **worden** at the sentence end in perfect tense.",
+  "table": [
+   [
+    "Tense",
+    "Structure",
+    "Example"
+   ],
+   [
+    "Präteritum Passiv",
+    "wurden + Partizip",
+    "Das Auto wurde gewaschen."
+   ],
+   [
+    "Perfekt Passiv",
+    "sein + Partizip + worden",
+    "Das Auto ist gewaschen worden."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Die Schuhe wurden geputzt.",
+    "en": "The shoes were cleaned."
+   },
+   {
+    "de": "Das Auto wurde gestern gewaschen.",
+    "en": "The car was washed yesterday."
+   },
+   {
+    "de": "Das Buch wurde 2015 veröffentlicht.",
+    "en": "The book was published in 2015."
+   },
+   {
+    "de": "Das Video wurde mit einer Drohne aufgenommen.",
+    "en": "The video was filmed with a drone."
+   },
+   {
+    "de": "Das Motorrad ist letztes Jahr repariert worden.",
+    "en": "The motorcycle was repaired last year."
+   },
+   {
+    "de": "Die Bestellung ist schon verschickt worden.",
+    "en": "The order has already been shipped."
+   }
+  ],
+  "mistakes": [
+   "✗ Das Auto ist gewaschen worden worden → ✓ Das Auto ist gewaschen worden — don't repeat worden",
+   "✗ Die Schuhe wurden geputzt worden → ✓ Die Schuhe wurden geputzt — präteritum doesn't use worden",
+   "✗ Das Buch wurde 2015 veröffentlich → ✓ Das Buch wurde 2015 veröffentlicht — participle must end in -t or -en"
+  ],
+  "video": {
+   "url": "https://youtu.be/i34ICN0PzJY",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: passive voice in past tenses"
+    },
+    {
+     "t": "00:47",
+     "label": "Präteritum passiv structure and examples"
+    },
+    {
+     "t": "02:25",
+     "label": "Conjugation of werden in präteritum"
+    },
+    {
+     "t": "03:12",
+     "label": "Perfekt passiv: sein + partizip + worden"
+    },
+    {
+     "t": "04:57",
+     "label": "Examples: published book and drone video"
+    },
+    {
+     "t": "05:44",
+     "label": "Practice examples and questions"
+    }
+   ]
+  }
+ },
+ {
+  "id": "KSkVMbLfY9E",
+  "title": "The Verb WERDEN: Full Verb and Auxiliary in All Contexts",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 4,
+  "rule": "The verb **werden** is complex because it has two functions. As a **full verb** (Vollverb), it means \"to become\" or \"to turn\" (describing change or development). As an **auxiliary verb** (Hilfsverb), it forms the future tense, passive voice, and conditional subjunctive II. The conjugation differs based on function: for full verb past participle is **geworden**; for auxiliary functions the participle is **worden** (passive and conditional). Understanding context is essential to distinguish which form to use.",
+  "table": [
+   [
+    "Function",
+    "Usage",
+    "Example"
+   ],
+   [
+    "Vollverb (to become)",
+    "Change/development",
+    "Er ist Arzt geworden."
+   ],
+   [
+    "Hilfsverb (future)",
+    "Will + infinitive",
+    "Ich werde Deutsch lernen."
+   ],
+   [
+    "Hilfsverb (passive)",
+    "Be + past participle",
+    "Das Haus wird gebaut."
+   ],
+   [
+    "Hilfsverb (Konjunktiv II)",
+    "Would + infinitive",
+    "Ich würde gern in Köln leben."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Was möchtest du später einmal werden?",
+    "en": "What would you like to become later?",
+    "note": "Full verb, asking about profession"
+   },
+   {
+    "de": "Ich werde Deutsch lernen.",
+    "en": "I will learn German.",
+    "note": "Auxiliary for future tense"
+   },
+   {
+    "de": "Im Herbst werden die Blätter rot und gelb.",
+    "en": "In autumn the leaves turn red and yellow.",
+    "note": "Full verb describing color change"
+   },
+   {
+    "de": "Sie ist tatsächlich Ärztin geworden.",
+    "en": "She actually became a doctor.",
+    "note": "Full verb in present perfect"
+   },
+   {
+    "de": "Das Haus wird gebaut.",
+    "en": "The house is being built.",
+    "note": "Auxiliary for passive voice"
+   },
+   {
+    "de": "Hans wird morgen operiert.",
+    "en": "Hans will be operated on tomorrow.",
+    "note": "Passive voice, auxiliary with medical procedure"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich bin Arzt worden → ✓ Ich bin Arzt geworden — use geworden with full verb werden",
+   "✗ Das Haus ist gebaut geworden → ✓ Das Haus ist gebaut worden — use worden with passive",
+   "✗ Ich werde lerne Deutsch → ✓ Ich werde Deutsch lernen — infinitive goes at end"
+  ],
+  "video": {
+   "url": "https://youtu.be/KSkVMbLfY9E",
+   "chapters": [
+    {
+     "t": "00:15",
+     "label": "Introduction: why werden is confusing"
+    },
+    {
+     "t": "00:59",
+     "label": "Full verb vs. auxiliary verb distinction"
+    },
+    {
+     "t": "02:21",
+     "label": "Definition: full verb and helper verb"
+    },
+    {
+     "t": "03:39",
+     "label": "Three auxiliary verbs: haben, sein, werden"
+    },
+    {
+     "t": "05:04",
+     "label": "Conjugation of werden (present and präteritum)"
+    },
+    {
+     "t": "06:46",
+     "label": "Werden as full verb: becoming a profession"
+    }
+   ]
+  }
+ },
+ {
+  "id": "LNah77Punes",
+  "title": "Infinitive WITHOUT zu: Modal Verbs, Sensation Verbs, and Movement",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 3,
+  "rule": "Many German verbs are followed by an infinitive **without zu**. Modal verbs (**können, müssen, dürfen, sollen, wollen, mögen**) never use zu. Sensation verbs (**sehen, hören, fühlen, spüren**) do not use zu when describing direct perception. Movement verbs (**gehen, kommen, fahren, laufen**) also omit zu. Special verbs **lassen** and **bleiben** follow this pattern. When the infinitive has objects or adverbials, zu becomes optional with verbs like **lehren** and **lernen** depending on sentence length.",
+  "table": [
+   [
+    "Verb Type",
+    "Example",
+    "Infinitive Form"
+   ],
+   [
+    "Modal verbs",
+    "Ich kann nicht essen.",
+    "ohne zu"
+   ],
+   [
+    "Sensation verbs",
+    "Ich höre die Musik spielen.",
+    "ohne zu"
+   ],
+   [
+    "Movement verbs",
+    "Ich gehe schwimmen.",
+    "ohne zu"
+   ],
+   [
+    "lassen",
+    "Ich lasse ihn kommen.",
+    "ohne zu"
+   ],
+   [
+    "bleiben",
+    "Er bleibt im Bett liegen.",
+    "ohne zu"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich kann nicht essen.",
+    "en": "I cannot eat.",
+    "note": "Modal verb können"
+   },
+   {
+    "de": "Ich höre die Musik spielen.",
+    "en": "I hear the music playing.",
+    "note": "Sensation verb hören"
+   },
+   {
+    "de": "Mein Bruder kommt mich bald besuchen.",
+    "en": "My brother will come visit me soon.",
+    "note": "Movement verb kommen"
+   },
+   {
+    "de": "Ich lasse ihn helfen.",
+    "en": "I let him help.",
+    "note": "Special verb lassen"
+   },
+   {
+    "de": "Er bleibt oft im Bett liegen.",
+    "en": "He often stays in bed lying down.",
+    "note": "Verb bleiben"
+   },
+   {
+    "de": "Max lernt Deutsch sprechen.",
+    "en": "Max learns to speak German.",
+    "note": "With object, optional structure"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich kann zu essen → ✓ Ich kann essen — modal verbs never take zu",
+   "✗ Ich höre ihn zu spielen → ✓ Ich höre ihn spielen — sensation verbs omit zu",
+   "✗ Ich gehe zu schwimmen → ✓ Ich gehe schwimmen — movement verbs don't use zu"
+  ],
+  "video": {
+   "url": "https://youtu.be/LNah77Punes",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: when NOT to use zu"
+    },
+    {
+     "t": "00:29",
+     "label": "Modal verbs and their infinitive patterns"
+    },
+    {
+     "t": "02:42",
+     "label": "Sensation verbs: hören, sehen, fühlen, spüren"
+    },
+    {
+     "t": "05:08",
+     "label": "Movement verbs: gehen, kommen, fahren"
+    },
+    {
+     "t": "07:39",
+     "label": "Special verbs: lassen and bleiben"
+    },
+    {
+     "t": "09:18",
+     "label": "Subjunctive II möchte and final summary"
+    }
+   ]
+  }
+ },
+ {
+  "id": "OWOro5DsPUY",
+  "title": "The Preposition 'nach': Temporal, Local, and Modal Uses",
+  "level": "B1",
+  "topic": "Präpositionen",
+  "readMinutes": 3,
+  "rule": "The preposition **nach** has three main meanings and **always takes the dative case**. As a **temporal preposition**, it means \"after\" (e.g., Nach dem Frühstück fahre ich ins Büro). As a **local preposition**, it means \"to\" for destinations (cities/countries only: Ich fahre nach Paris). As a **modal preposition**, it means \"according to\" (Nach dem Wetterbericht regnet es). **Nach** also appears as a prefix in compound verbs (nachbauen = recreate, nachbestellen = reorder) and as an adverb (nach wie vor = still/the same as before). Common mistake: confusing after **zu**, **in**, or **bei** for destinations.",
+  "table": [
+   [
+    "Usage Type",
+    "Meaning",
+    "Example",
+    "Case"
+   ],
+   [
+    "Temporal",
+    "After (time)",
+    "Nach der Arbeit gehen wir ins Kino.",
+    "Dative"
+   ],
+   [
+    "Local",
+    "To (destination)",
+    "Ich fahre nach Deutschland.",
+    "Dative"
+   ],
+   [
+    "Modal",
+    "According to",
+    "Nach meiner Meinung ist es gut.",
+    "Dative"
+   ],
+   [
+    "Prefix",
+    "Various",
+    "nachbauen (recreate)",
+    "-"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Nach dem Frühstück fahre ich ins Büro.",
+    "en": "After breakfast I go to the office.",
+    "note": "Temporal: after breakfast"
+   },
+   {
+    "de": "Wir gehen nach der Arbeit ins Kino.",
+    "en": "We go to the cinema after work.",
+    "note": "Temporal: dative after nach"
+   },
+   {
+    "de": "Morgen fährt Klara nach Paris.",
+    "en": "Tomorrow Carla is flying to Paris.",
+    "note": "Local: to (city only)"
+   },
+   {
+    "de": "Nach dem Wetterbericht regnet es morgen.",
+    "en": "According to the weather report it will rain tomorrow.",
+    "note": "Modal: according to"
+   },
+   {
+    "de": "Ihrem Akzent nach kommt sie aus Italien.",
+    "en": "Judging by her accent, she is from Italy.",
+    "note": "Modal: based on"
+   },
+   {
+    "de": "Der gleiche Turm wurde in China nachgebaut.",
+    "en": "The same tower was recreated in China.",
+    "note": "Prefix: nachbauen = to rebuild"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich fahre nach dem Supermarkt → ✓ Ich fahre zum Supermarkt — nach is only for cities/countries, use zu for places",
+   "✗ Nach Genuss fahre ich ins Büro → ✓ Nach der Arbeit fahre ich ins Büro — must use dative case",
+   "✗ Sie suchen nach ihre Freundin → ✓ Sie suchen nach ihrer Freundin — dative case required"
+  ],
+  "video": {
+   "url": "https://youtu.be/OWOro5DsPUY",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to nach and its multiple meanings"
+    },
+    {
+     "t": "01:24",
+     "label": "Temporal use: after (time expressions)"
+    },
+    {
+     "t": "03:36",
+     "label": "Local use: to destinations (cities/countries)"
+    },
+    {
+     "t": "06:37",
+     "label": "Common mistakes with zu, in, bei"
+    },
+    {
+     "t": "09:01",
+     "label": "Modal use: according to"
+    },
+    {
+     "t": "11:09",
+     "label": "Verbs with preposition nach"
+    }
+   ]
+  }
+ },
+ {
+  "id": "OWpAdh_AUUM",
+  "title": "Word Order with Dative and Accusative Objects",
+  "level": "B1",
+  "topic": "Satzbau & Konnektoren",
+  "readMinutes": 3,
+  "rule": "Word order with two objects (dative and accusative) follows specific rules based on noun vs. pronoun. **Noun + Noun**: dative before accusative (Ich bringe einen Tee meiner Großmutter). **Pronoun + Noun**: pronoun always comes first regardless of case (Ich bringe ihn meiner Großmutter). **Pronoun + Pronoun**: accusative before dative (Ich bringe es ihr). Definite article nouns can be swapped, but indefinite articles require dative-first order unless the accusative is indefinite. This pattern applies to personal pronouns; indefinite, demonstrative, or possessive pronouns have different ordering (dative before accusative).",
+  "table": [
+   [
+    "Situation",
+    "Order Rule",
+    "Example"
+   ],
+   [
+    "Noun + Noun",
+    "Dative first",
+    "Ich bringe einen Tee meiner Großmutter."
+   ],
+   [
+    "Pronoun + Noun (any case)",
+    "Pronoun first",
+    "Ich bringe es meiner Großmutter."
+   ],
+   [
+    "Pronoun + Pronoun (personal)",
+    "Accusative first",
+    "Ich bringe es ihr."
+   ],
+   [
+    "Definite + Definite",
+    "Can swap",
+    "Ich zeige dem Freund das Haus."
+   ],
+   [
+    "Indefinite accusative",
+    "Dative must be first",
+    "Ich zeige meinem Freund ein Buch."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich bringe meiner Großmutter einen Tee.",
+    "en": "I bring my grandmother a tea.",
+    "note": "Two nouns: dative first"
+   },
+   {
+    "de": "Max gibt seiner Katze einen Keks.",
+    "en": "Max gives his cat a biscuit.",
+    "note": "Noun dative, noun accusative"
+   },
+   {
+    "de": "Kannst du mir die Geschichte erzählen?",
+    "en": "Can you tell me the story?",
+    "note": "Pronoun dative, noun accusative"
+   },
+   {
+    "de": "Ich bringe es ihr.",
+    "en": "I bring it to her.",
+    "note": "Two pronouns: accusative first"
+   },
+   {
+    "de": "Kannst du es mir zeigen?",
+    "en": "Can you show it to me?",
+    "note": "Accusative pronoun before dative"
+   },
+   {
+    "de": "Sie zeigt dem Freund das Haus.",
+    "en": "She shows the friend the house.",
+    "note": "Two definite articles: interchangeable"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich bringe meiner Großmutter einen Tee. → ✓ Ich bringe einen Tee meiner Großmutter. — accusative noun must come before dative",
+   "✗ Ich bringe ihrer es. → ✓ Ich bringe es ihr. — accusative pronoun before dative pronoun",
+   "✗ Ich zeige das Haus dem Freund ein Buch. → ✓ Ich zeige meinem Freund ein Buch. — maintain consistent order"
+  ],
+  "video": {
+   "url": "https://youtu.be/OWpAdh_AUUM",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: positioning two objects"
+    },
+    {
+     "t": "00:31",
+     "label": "Three situations: noun-noun, pronoun-noun, pronoun-pronoun"
+    },
+    {
+     "t": "02:08",
+     "label": "Situation 1 (noun + noun): dative first"
+    },
+    {
+     "t": "04:17",
+     "label": "Exception rules for definite/indefinite articles"
+    },
+    {
+     "t": "05:51",
+     "label": "Situation 2 (pronoun + noun): pronoun always first"
+    },
+    {
+     "t": "08:12",
+     "label": "Situation 3 (pronoun + pronoun): accusative first"
+    }
+   ]
+  }
+ },
+ {
+  "id": "RHSA0OMAT58",
+  "title": "Wortschatz: antworten vs. beantworten",
+  "level": "B1",
+  "topic": "Wortschatz",
+  "readMinutes": 3,
+  "rule": "Both **antworten** and **beantworten** mean \"to answer\" or \"to reply,\" but they are not interchangeable. **Antworten** is used when replying to a **person** (dative case): \"Ich werde dir morgen antworten\" (I will reply to you tomorrow). It can also take the preposition **auf** + accusative for things: \"Hast du auf die E-Mail geantwortet?\" (Have you replied to the email?). **Beantworten** is used with a direct **accusative object** (always required): \"Hast du die E-Mail beantwortet?\" (Have you answered the email?). The prefix **be-** on beantworten never adds **ge-** in the past participle: **beantwortet** (not gebeantwortet).",
+  "table": [
+   [
+    "Verb",
+    "Construction",
+    "Example",
+    "English"
+   ],
+   [
+    "antworten",
+    "+ Dativ (person)",
+    "Ich werde dir antworten.",
+    "I will reply to you."
+   ],
+   [
+    "antworten",
+    "+ auf + Akkusativ (thing)",
+    "Hast du auf die E-Mail geantwortet?",
+    "Have you replied to the email?"
+   ],
+   [
+    "beantworten",
+    "+ Akkusativ (direct object)",
+    "Hast du die E-Mail beantwortet?",
+    "Have you answered the email?"
+   ],
+   [
+    "beantworten (past)",
+    "ge- prefix omitted",
+    "beantwortet (not gebeantwortet)",
+    "answered"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich werde dir morgen antworten.",
+    "en": "I will reply to you tomorrow.",
+    "note": "antworten + dative person"
+   },
+   {
+    "de": "Hast du dem Kunden schon geantwortet?",
+    "en": "Have you already replied to the customer?",
+    "note": "antworten + dative"
+   },
+   {
+    "de": "Die KI antwortet normalerweise sehr schnell.",
+    "en": "AI usually answers very quickly.",
+    "note": "antworten without object"
+   },
+   {
+    "de": "Hast du auf die E-Mail schon geantwortet?",
+    "en": "Have you already replied to the email?",
+    "note": "antworten + auf + accusative"
+   },
+   {
+    "de": "Hast du die E-Mail schon beantwortet?",
+    "en": "Have you already answered the email?",
+    "note": "beantworten + accusative object"
+   },
+   {
+    "de": "Beantworten Sie bitte die Frage.",
+    "en": "Please answer the question.",
+    "note": "beantworten + accusative object"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich beantworte dir. → ✓ Ich beantworte dir die Frage. — beantworten REQUIRES a direct accusative object",
+   "✗ Ich antworte die E-Mail. → ✓ Ich antworte auf die E-Mail. or Ich beantworte die E-Mail. — antworten needs auf or use beantworten",
+   "✗ Ich habe die E-Mail gebeantwortet. → ✓ Ich habe die E-Mail beantwortet. — be- verbs don't add ge- in past participle"
+  ],
+  "video": {
+   "url": "https://youtu.be/RHSA0OMAT58",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: which sentences are correct?"
+    },
+    {
+     "t": "00:39",
+     "label": "antworten vs. beantworten: basic differences"
+    },
+    {
+     "t": "01:19",
+     "label": "antworten: replying to a person (dative)"
+    },
+    {
+     "t": "02:40",
+     "label": "antworten: without an object"
+    },
+    {
+     "t": "03:56",
+     "label": "antworten + auf: replying to things"
+    },
+    {
+     "t": "05:11",
+     "label": "beantworten: always needs accusative object"
+    }
+   ]
+  }
+ },
+ {
+  "id": "tSgfnvDhPqs",
+  "title": "Konjunktiv II: würden, hätten, wären (Subjunctive II for Wishes and Dreams)",
+  "level": "B1",
+  "topic": "Konjunktiv",
+  "readMinutes": 3,
+  "rule": "**Konjunktiv II** (general subjunctive) expresses irrealis—hypothetical, unreal, or wished-for situations. It is formed with three key auxiliary verbs. **würden** is the conditional form of werden; used with infinitives to express wishes (Er würde gern in Deutschland leben). **hätten** is the conditional form of haben (Sie hätte gern ein neues Handy). **wären** is the conditional form of sein (Sie wäre gern reich). When expressing wishes and dreams, the adverb **gern(e)** is often added. In all forms, the infinitive or noun appears at sentence end (würde + infinitive, hätte/wäre + noun or adjective).",
+  "table": [
+   [
+    "Auxiliary",
+    "Present Tense",
+    "Konjunktiv II",
+    "Use"
+   ],
+   [
+    "werden",
+    "ich werde",
+    "ich würde",
+    "conditional auxiliary"
+   ],
+   [
+    "haben",
+    "ich habe",
+    "ich hätte",
+    "expressing wishes (to have)"
+   ],
+   [
+    "sein",
+    "ich bin",
+    "ich wäre",
+    "expressing wishes (to be)"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Er würde gern in Deutschland leben.",
+    "en": "He would like to live in Germany.",
+    "note": "würde + infinitive + gern"
+   },
+   {
+    "de": "Sie würde gern Gitarre spielen können.",
+    "en": "She would like to be able to play guitar.",
+    "note": "würde + modal verb infinitive"
+   },
+   {
+    "de": "Sie hätte gern ein neues Handy.",
+    "en": "She would like a new cell phone.",
+    "note": "hätte + direct object"
+   },
+   {
+    "de": "Hättest du auch gern einen Schirm?",
+    "en": "Would you also like an umbrella?",
+    "note": "hätte in question form"
+   },
+   {
+    "de": "Sie wäre gern eine reiche Frau.",
+    "en": "She would like to be a rich woman.",
+    "note": "wäre + predicate noun"
+   },
+   {
+    "de": "Ich wäre wirklich gerne dein Freund.",
+    "en": "I would really like to be your friend.",
+    "note": "wäre + gerne + predicative noun"
+   }
+  ],
+  "mistakes": [
+   "✗ Er wurde gern in Deutschland leben → ✓ Er würde gern in Deutschland leben — use Konjunktiv II würde, not präteritum wurde",
+   "✗ Sie hätte ein neues Handy → ✓ Sie hätte gern ein neues Handy — gern(e) emphasizes the wish",
+   "✗ Ich wäre reich werden → ✓ Ich wäre gern reich — wäre takes adjective/noun, not infinitive"
+  ],
+  "video": {
+   "url": "https://youtu.be/tSgfnvDhPqs",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction: Konjunktiv II and irrealis situations"
+    },
+    {
+     "t": "00:42",
+     "label": "würden: conditional form of werden"
+    },
+    {
+     "t": "01:28",
+     "label": "Expressing wishes with würde + infinitive + gern"
+    },
+    {
+     "t": "02:38",
+     "label": "Practice: würde examples with 5-second exercises"
+    },
+    {
+     "t": "04:16",
+     "label": "hätten: conditional form of haben (wish to have)"
+    },
+    {
+     "t": "06:04",
+     "label": "wären: conditional form of sein (wish to be)"
+    }
+   ]
+  }
+ },
+ {
+  "id": "Vh0-IcLuC_s",
+  "title": "Top 10 German Abbreviations for Writing",
+  "level": "B1",
+  "topic": "Wortschatz",
+  "readMinutes": 3,
+  "rule": "Common abbreviations used in German writing streamline communication. **z.B.** (zum Beispiel) means 'for example'; **d.h.** (das heißt) means 'that is'; **z.T.** (zum Teil) means 'in part'; **bzw.** (beziehungsweise) means 'respectively' or 'or more precisely' depending on context; **usw.** (und so weiter) means 'and so forth'; **inkl.** (inklusive) means 'including'; **ca.** (circa) means 'approximately'; **u.a.** (unter anderem) means 'among other things'; **evt.** (eventuell) means 'possibly/perhaps'. Knowing these abbreviations helps you read and write German efficiently.",
+  "table": [
+   [
+    "Abbreviation",
+    "German",
+    "English",
+    "Use"
+   ],
+   [
+    "z.B.",
+    "zum Beispiel",
+    "for example",
+    "Give examples"
+   ],
+   [
+    "d.h.",
+    "das heißt",
+    "that is",
+    "Clarify meaning"
+   ],
+   [
+    "z.T.",
+    "zum Teil",
+    "in part/partly",
+    "Describe partial amounts"
+   ],
+   [
+    "bzw.",
+    "beziehungsweise",
+    "respectively/or more precisely",
+    "Clarify alternatives"
+   ],
+   [
+    "usw.",
+    "und so weiter",
+    "and so forth",
+    "Continue listing"
+   ],
+   [
+    "inkl.",
+    "inklusive",
+    "including",
+    "Add inclusions"
+   ],
+   [
+    "ca.",
+    "circa",
+    "approximately",
+    "Estimate quantities/time"
+   ],
+   [
+    "u.a.",
+    "unter anderem",
+    "among other things",
+    "Emphasize one point among many"
+   ],
+   [
+    "evt.",
+    "eventuell",
+    "possibly/perhaps",
+    "Express uncertainty"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Es gibt viele Orte in Berlin, z.B. den Tiergarten oder den Dom.",
+    "en": "There are many places in Berlin, for example the Tiergarten or the Cathedral.",
+    "note": "Introducing examples"
+   },
+   {
+    "de": "Das Konzert findet am Samstag statt, das heißt morgen.",
+    "en": "The concert takes place on Saturday, that is, tomorrow.",
+    "note": "Clarifying what was just said"
+   },
+   {
+    "de": "Die Antworten der Studenten waren zum Teil falsch, aber mehrheitlich richtig.",
+    "en": "The students' answers were partly wrong, but mostly correct.",
+    "note": "Describing partial correctness"
+   },
+   {
+    "de": "Der Kurs eignet sich für Ausländer, bzw. für Englisch sprechende Schüler.",
+    "en": "The course is suitable for foreigners, that is, for English-speaking students.",
+    "note": "Specifying more precisely"
+   },
+   {
+    "de": "Der Preis beträgt 65 Euro inklusive Mehrwertsteuer.",
+    "en": "The price is 65 euros including VAT.",
+    "note": "Adding inclusions in prices"
+   },
+   {
+    "de": "Du bekommst das Paket in ca. 5 Tagen.",
+    "en": "You will receive the package in approximately 5 days.",
+    "note": "Estimating time frames"
+   }
+  ],
+  "mistakes": [
+   "✗ z.B Punkt (z.B with period at end) → ✓ z.B. (period after last letter) — Standard German punctuation for abbreviations",
+   "✗ z.B Abstand (no space after period) → ✓ z.B. (with space) — Space follows abbreviations in writing",
+   "✗ mit z.B. komma (comma before z.B.) → ✓ keine komma (no comma) — No comma before abbreviations like z.B. or usw.",
+   "✗ Der Rest beträgt Komma — Sie können den Rest behalten. → ✓ Der Rest ist für Sie. / Den Rest können Sie behalten. — Correct word order and verb usage"
+  ],
+  "video": {
+   "url": "https://youtu.be/Vh0-IcLuC_s",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction and overview of top 10 abbreviations"
+    },
+    {
+     "t": "01:00",
+     "label": "z.B. (zum Beispiel) - for example"
+    },
+    {
+     "t": "03:34",
+     "label": "d.h. (das heißt) - that is"
+    },
+    {
+     "t": "04:46",
+     "label": "z.T. (zum Teil) - partly/in part"
+    },
+    {
+     "t": "05:52",
+     "label": "bzw. (beziehungsweise) - respectively/more precisely"
+    },
+    {
+     "t": "11:25",
+     "label": "inkl. (inklusive), ca. (circa), and u.a. (unter anderem)"
+    },
+    {
+     "t": "15:29",
+     "label": "evt. (eventuell), usw., and punctuation rules"
+    }
+   ]
+  }
+ },
+ {
+  "id": "wIxV8sk1zag",
+  "title": "ALS vs. WENN - When to Use Which",
+  "level": "B1",
+  "topic": "Satzbau & Konnektoren",
+  "readMinutes": 3,
+  "rule": "**ALS** is used only for single, one-time events in the past (simple past or present perfect). **WENN** is used for present tense (routines/habits), future tense, and repeated actions in the past. In past narratives (storytelling), use **ALS** because events are typically one-time occurrences. Both are subordinating conjunctions, so the conjugated verb moves to the end of the subordinate clause. The time words **immer** (always/whenever) or **jedes Mal** (every time) often accompany **WENN** in past tense to clarify repeated action.",
+  "table": [
+   [
+    "Conjunction",
+    "Tense/Context",
+    "Meaning",
+    "Example"
+   ],
+   [
+    "ALS",
+    "Past (single event)",
+    "when (one time)",
+    "Als ich traurig war, rief ich meine Mutter an."
+   ],
+   [
+    "WENN",
+    "Present (routine)",
+    "when (habitual)",
+    "Wenn ich allein bin, schaue ich Serien."
+   ],
+   [
+    "WENN",
+    "Future",
+    "if/when",
+    "Wenn das Wetter schön ist, machen wir eine Wanderung."
+   ],
+   [
+    "WENN + immer",
+    "Past (repeated)",
+    "whenever",
+    "Immer wenn ich in Berlin war, besuchte ich Museen."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Als ich traurig war, rief ich meine Mutter an.",
+    "en": "When I was sad, I called my mother.",
+    "note": "Single past event - use ALS"
+   },
+   {
+    "de": "Wenn ich allein zu Hause bin, schaue ich gern Serien.",
+    "en": "When I'm home alone, I like to watch TV shows.",
+    "note": "Present habit/routine - use WENN"
+   },
+   {
+    "de": "Wenn das Wetter schön ist, gehen wir wandern.",
+    "en": "If the weather is nice, we will go hiking.",
+    "note": "Future condition - use WENN"
+   },
+   {
+    "de": "Immer wenn ich in Berlin war, besuchte ich meine Freunde.",
+    "en": "Whenever I was in Berlin, I visited my friends.",
+    "note": "Past repeated action - use WENN with immer"
+   },
+   {
+    "de": "Ich war bereits eingeschlafen, als du mir die Nachricht geschrieben hast.",
+    "en": "I had already fallen asleep when you texted me.",
+    "note": "Single past event - one specific moment"
+   },
+   {
+    "de": "Wenn du Zeit hast, treffen wir uns am Donnerstag oder Freitag.",
+    "en": "If you have time, we'll meet on Thursday or Friday.",
+    "note": "Conditional future"
+   }
+  ],
+  "mistakes": [
+   "✗ Wenn ich ein Kind war, hatte ich lange Haare. → ✓ Als ich ein Kind war, hatte ich lange Haare. — Childhood is one period, one event in the past",
+   "✗ Als ich allein zu Hause bin, schaue ich Serien. → ✓ Wenn ich allein zu Hause bin, schaue ich Serien. — Present habit requires WENN",
+   "✗ Wenn es regnete, blieb ich zu Hause. (without immer/jedes Mal) → ✓ Immer wenn es regnete, blieb ich zu Hause. — Repeated past actions need time markers with WENN",
+   "✗ Wenn das Wetter morgen schön sein wird, ... → ✓ Wenn das Wetter morgen schön ist, ... — Use present tense for future conditions, not future tense in German"
+  ],
+  "video": {
+   "url": "https://youtu.be/wIxV8sk1zag",
+   "chapters": [
+    {
+     "t": "00:04",
+     "label": "Introduction and the central question"
+    },
+    {
+     "t": "01:28",
+     "label": "ALS rules - past tense, single events only"
+    },
+    {
+     "t": "02:06",
+     "label": "WENN rules - any tense, repeated actions"
+    },
+    {
+     "t": "03:30",
+     "label": "Present tense with WENN - habits and routines"
+    },
+    {
+     "t": "05:18",
+     "label": "Future tense - always use WENN"
+    },
+    {
+     "t": "06:33",
+     "label": "Past tense - ALS vs. WENN and the importance of time words"
+    },
+    {
+     "t": "11:08",
+     "label": "Summary and bonus tips about question word WANN"
+    }
+   ]
+  }
+ },
+ {
+  "id": "xzpnjZb7I0s",
+  "title": "Genitive Prepositions: trotz & wegen",
+  "level": "B1",
+  "topic": "Präpositionen",
+  "readMinutes": 2,
+  "rule": "The prepositions **wegen** (because of/due to) and **trotz** (despite/in spite of) both require the genitive case. **Wegen** expresses the reason or cause for something happening or not happening. **Trotz** expresses a counter-argument or obstacle that did not prevent an action. Both can be replaced with alternative structures: **wegen** with the subordinating conjunction **weil** (because) or the adverb **deshalb** (therefore); **trotz** with the conjunction **obwohl** (although) or the adverb **trotzdem** (nevertheless). In colloquial German and dialects, dative is sometimes used, but genitive is standard in formal and written German.",
+  "table": [
+   [
+    "Preposition",
+    "Case",
+    "Meaning",
+    "Function",
+    "Example"
+   ],
+   [
+    "wegen",
+    "Genitive",
+    "because of/due to",
+    "Expresses reason",
+    "Wegen des schlechten Wetters bleibt er zu Hause."
+   ],
+   [
+    "trotz",
+    "Genitive",
+    "despite/in spite of",
+    "Expresses counter-argument",
+    "Trotz des Rauchverbots raucht sie."
+   ],
+   [
+    "weil (conj.)",
+    "—",
+    "because",
+    "Subordinating clause",
+    "Er bleibt zu Hause, weil das Wetter schlecht ist."
+   ],
+   [
+    "obwohl (conj.)",
+    "—",
+    "although",
+    "Subordinating clause",
+    "Sie raucht, obwohl es ein Rauchverbot gibt."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Wegen des schlechten Wetters bleibt er heute zu Hause.",
+    "en": "Because of the bad weather, he stays home today.",
+    "note": "Reason for action - wegen takes genitive"
+   },
+   {
+    "de": "Trotz des Rauchverbots raucht sie ihre Zigarette mit Vergnügen.",
+    "en": "Despite the smoking ban, she smokes her cigarette with pleasure.",
+    "note": "Counter-argument doesn't prevent action - trotz takes genitive"
+   },
+   {
+    "de": "Wegen eines Staus hat er seinen Flug verpasst.",
+    "en": "Because of a traffic jam, he missed his flight.",
+    "note": "Genitive article einen → eines for masculine genitive"
+   },
+   {
+    "de": "Trotz schwieriger Grammatik lernt sie weiter Deutsch.",
+    "en": "Despite difficult grammar, she continues learning German.",
+    "note": "Genitive adjective ending on schwieriger"
+   },
+   {
+    "de": "Er geht zur Arbeit, trotz starker Kopfschmerzen.",
+    "en": "He goes to work, despite a strong headache.",
+    "note": "Genitive feminine plural adjective"
+   },
+   {
+    "de": "Wegen hoher Kosten muss er sein Haus verkaufen.",
+    "en": "Due to high costs, he has to sell his house.",
+    "note": "Genitive plural article and adjective"
+   }
+  ],
+  "mistakes": [
+   "✗ Wegen dem schlechten Wetter → ✓ Wegen des schlechten Wetters — wegen requires genitive case, not dative",
+   "✗ Trotz den Rauchverbot → ✓ Trotz des Rauchverbots — must use genitive article des, not dative den",
+   "✗ Wegen der schlechten Wetters → ✓ Wegen des schlechten Wetters — das Wetter is neuter, takes des in genitive",
+   "✗ Trotz Rauchverboten → ✓ Trotz des Rauchverbots — singular genitive, not plural"
+  ],
+  "video": {
+   "url": "https://youtu.be/xzpnjZb7I0s",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to trotz and wegen"
+    },
+    {
+     "t": "00:40",
+     "label": "WEGEN - expressing reason and cause"
+    },
+    {
+     "t": "01:25",
+     "label": "TROTZ - expressing counter-argument"
+    },
+    {
+     "t": "02:20",
+     "label": "Examples with wegen"
+    },
+    {
+     "t": "03:24",
+     "label": "Examples with trotz"
+    },
+    {
+     "t": "04:25",
+     "label": "Alternative structures - weil, deshalb, obwohl, trotzdem"
+    },
+    {
+     "t": "06:59",
+     "label": "Note on dative usage in colloquial speech"
+    }
+   ]
+  }
+ },
+ {
+  "id": "y37XH4aQpvw",
+  "title": "Infinitive Clauses: ZU vs. UM...ZU",
+  "level": "B1",
+  "topic": "Verben & Zeiten",
+  "readMinutes": 3,
+  "rule": "Use **zu + infinitive** when asking 'what?' about the action — typically after verbs like *anfangen*, *versuchen*, *hoffen*, and adjectives like *wichtig*, *gesund*. Use **um...zu + infinitive** when asking 'why?' or expressing purpose — it means 'in order to'. Both create infinitive subordinate clauses. A crucial rule: **um...zu is only possible if both the main clause and subordinate clause have the same subject**. If subjects differ, use **damit** (so that) instead, which introduces a full subordinate clause with conjugated verbs. With separable verbs, the **zu** inserts between the prefix and the verb stem (e.g., *aufzunehmen*, *abzunehmen*).",
+  "table": [
+   [
+    "Structure",
+    "Question",
+    "Example",
+    "Meaning"
+   ],
+   [
+    "zu + Infinitive",
+    "What?",
+    "Ich hoffe, die B1-Prüfung zu bestehen.",
+    "I hope to pass the B1 exam."
+   ],
+   [
+    "um...zu + Inf.",
+    "Why? (Purpose)",
+    "Ich lerne Deutsch, um einen Job in Deutschland zu finden.",
+    "I learn German in order to find a job in Germany."
+   ],
+   [
+    "damit (full clause)",
+    "Why? (Purpose, different subject)",
+    "Ich lerne Deutsch, damit meine Tochter mit mir sprechen kann.",
+    "I learn German so that my daughter can speak with me."
+   ],
+   [
+    "Separable Verb",
+    "With Prefix",
+    "Ich muss mein Handy aufladen.",
+    "I have to charge my cell phone."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Ich hoffe, die B1-Prüfung zu bestehen.",
+    "en": "I hope to pass the B1 exam.",
+    "note": "hoffen takes zu + infinitive (same subject)"
+   },
+   {
+    "de": "Es ist wichtig, Vokabeln zu wiederholen.",
+    "en": "It is important to review vocabulary.",
+    "note": "Adjective + zu + infinitive"
+   },
+   {
+    "de": "Marta lernt Deutsch, um mit ihrer Freundin zu kommunizieren.",
+    "en": "Marta learns German in order to communicate with her friend.",
+    "note": "um...zu for purpose (same subject)"
+   },
+   {
+    "de": "Ich lerne Deutsch, damit meine Freundin mit mir sprechen kann.",
+    "en": "I learn German so that my friend can speak with me.",
+    "note": "damit for purpose with different subjects"
+   },
+   {
+    "de": "Tom hat angefangen, Deutsch zu lernen, um einen Job zu finden.",
+    "en": "Tom has started learning German in order to find a job.",
+    "note": "Combining two infinitive structures"
+   },
+   {
+    "de": "Morgen werde ich weniger essen, um nicht zuzunehmen.",
+    "en": "Tomorrow I will eat less in order not to gain weight.",
+    "note": "Separable verb with zu: zu + nehmen = zunehmen"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich lerne Deutsch zu verstehen meine Freundin. → ✓ Ich lerne Deutsch, um meine Freundin zu verstehen. — For purpose, use um...zu + infinitive with comma",
+   "✗ Ich muss mein Handy laden auf. → ✓ Ich muss mein Handy aufladen. — Separable verbs join in infinitive: auf+laden = aufladen",
+   "✗ Ich lerne Deutsch, um meine Freundin zu verstehen kann. → ✓ Ich lerne Deutsch, um meine Freundin zu verstehen. — um...zu uses infinitive, not conjugated verb",
+   "✗ Ich versuche, einen Job zu finden, damit ich Geld verdiene. → ✓ Ich versuche, einen Job zu finden, um Geld zu verdienen. — Same subject requires um...zu, not damit"
+  ],
+  "video": {
+   "url": "https://youtu.be/y37XH4aQpvw",
+   "chapters": [
+    {
+     "t": "00:02",
+     "label": "Introduction and the central question"
+    },
+    {
+     "t": "00:50",
+     "label": "Modal verbs (cannot use zu)"
+    },
+    {
+     "t": "02:34",
+     "label": "The HACK - ask 'what?' vs 'why?' to choose"
+    },
+    {
+     "t": "03:55",
+     "label": "ZU + Infinitive - ask 'what?' examples"
+    },
+    {
+     "t": "07:27",
+     "label": "UM...ZU - ask 'why?' for purpose"
+    },
+    {
+     "t": "12:45",
+     "label": "Subject agreement rule (same subject required for um...zu)"
+    },
+    {
+     "t": "15:36",
+     "label": "Separable verbs and exceptions"
+    }
+   ]
+  }
+ },
+ {
+  "id": "yBhEoU1E-KU",
+  "title": "Relative Clauses in the Dative Case",
+  "level": "B1",
+  "topic": "Relativsätze",
+  "readMinutes": 3,
+  "rule": "Dative relative clauses use dative **relative pronouns** to introduce subordinate clauses where the verb requires the dative case. The dative relative pronouns are: singular masculine **der**, feminine **der**, neuter **dem**, and plural **denen**. Unlike the articles, singular dative pronouns are identical to nominative forms. In a relative clause, the conjugated verb always moves to the final position. Separable verbs remain unseparated in subordinate clauses. In perfect tense, the past participle precedes the auxiliary *haben* or *sein*, which stands at the very end. Modal verbs in relative clauses also appear in conjugated form at the end.",
+  "table": [
+   [
+    "Gender/Number",
+    "Dative Relative Pronoun",
+    "Dative Article",
+    "Example"
+   ],
+   [
+    "Masculine Sing.",
+    "der",
+    "dem",
+    "Der Kollege, dem ich helfe..."
+   ],
+   [
+    "Feminine Sing.",
+    "der",
+    "der",
+    "Die Nachbarin, der ich helfe..."
+   ],
+   [
+    "Neuter Sing.",
+    "dem",
+    "dem",
+    "Das Kind, dem ich helfe..."
+   ],
+   [
+    "Plural",
+    "denen",
+    "den",
+    "Die Freunde, denen ich helfe..."
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Das ist meine Nachbarin, der ich im Garten helfe.",
+    "en": "This is my neighbor (fem.), whom I help in the garden.",
+    "note": "Feminine singular - relative pronoun der"
+   },
+   {
+    "de": "Das ist der Nachbar, dem ich mein Motorrad geliehen habe.",
+    "en": "That is the neighbor I lent my motorcycle to.",
+    "note": "Neuter singular - relative pronoun dem; perfect tense with dative verb"
+   },
+   {
+    "de": "Meinst du das kleine Mädchen, dem die Sonnenbrille nicht richtig passt?",
+    "en": "Do you mean the little girl (neut.) whose sunglasses don't fit properly?",
+    "note": "Neuter singular with present tense; passen takes dative"
+   },
+   {
+    "de": "Das ist eine Studentin von mir, der ich gerade Genitiv erklärt habe.",
+    "en": "This is a student of mine, to whom I have just explained the genitive.",
+    "note": "Feminine singular; perfect tense, conjugated verb at end"
+   },
+   {
+    "de": "Weißt du, wem das schöne Haus dort gehört? Ja, hier sind die beiden, denen das Haus gehört.",
+    "en": "Do you know whom that beautiful house belongs to? Yes, here are the two people to whom the house belongs.",
+    "note": "Plural dative - relative pronoun denen"
+   },
+   {
+    "de": "Das ist der Kollege, dem ich nie richtig zuhöre.",
+    "en": "This is the colleague to whom I never really listen.",
+    "note": "Separable verb zuhören - remains attached in subordinate clause"
+   }
+  ],
+  "mistakes": [
+   "✗ Der Kollege, den ich helfe... → ✓ Der Kollege, dem ich helfe... — helfen requires dative, not accusative",
+   "✗ Die Freunde, die mir helfen... → ✓ Die Freunde, denen mir helfen... — Plural dative is denen, not die",
+   "✗ Das Mädchen, dem die Eltern einen Hund schenken... → ✓ Das Mädchen, dem die Eltern einen Hund geschenkt haben. — Verb moves to end in past tense",
+   "✗ Der Kollege, dem ich nie richtig zu höre. → ✓ Der Kollege, dem ich nie richtig zuhöre. — Separable verb stays together: zuhören (not zu höre)"
+  ],
+  "video": {
+   "url": "https://youtu.be/yBhEoU1E-KU",
+   "chapters": [
+    {
+     "t": "00:05",
+     "label": "Introduction and overview of dative relative pronouns"
+    },
+    {
+     "t": "00:41",
+     "label": "Table of dative pronouns vs. articles"
+    },
+    {
+     "t": "01:28",
+     "label": "Sentence structure with dative relative clauses"
+    },
+    {
+     "t": "02:06",
+     "label": "How to form sentences with dative relative pronouns"
+    },
+    {
+     "t": "04:18",
+     "label": "Masculine examples"
+    },
+    {
+     "t": "06:15",
+     "label": "Neuter examples"
+    },
+    {
+     "t": "07:38",
+     "label": "Feminine examples"
+    },
+    {
+     "t": "09:10",
+     "label": "Plural examples"
+    }
+   ]
+  }
+ },
+ {
+  "id": "y_cxgBBE6iA",
+  "title": "Two-Part Connectors: Doppelkonjunktionen (B1/B2)",
+  "level": "B1",
+  "topic": "Satzbau & Konnektoren",
+  "readMinutes": 4,
+  "rule": "Two-part connectors (Doppelkonjunktionen) link ideas in sentences. **Nicht nur...sondern auch** (not only...but also) emphasizes both parts equally. **Sowohl...als auch** (both...and) works similarly but applies to nouns only. **Weder...noch** (neither...nor) negates both options. **Entweder...oder** (either...or) presents alternatives where only one applies. **Einerseits...andererseits** (on one hand...on the other hand) shows contrast between two perspectives. **Zwar...aber** (admittedly...but/though...but) concedes a point before introducing a restriction. **Je...desto** (the more...the more) expresses a proportional relationship with comparatives. Most two-part connectors trigger word-order changes: position 0 means the connector opens the second clause, shifting subject and verb; some allow optional word-order variation.",
+  "table": [
+   [
+    "Connector",
+    "Meaning",
+    "Structure",
+    "Word Order Change"
+   ],
+   [
+    "nicht nur...sondern auch",
+    "not only...but also",
+    "Main + Main",
+    "Position 0 in second part"
+   ],
+   [
+    "sowohl...als auch",
+    "both...and",
+    "Main + Main",
+    "No comma needed"
+   ],
+   [
+    "weder...noch",
+    "neither...nor",
+    "Main + Main",
+    "Position 0 in second part"
+   ],
+   [
+    "entweder...oder",
+    "either...or",
+    "Main + Main",
+    "Possible position change"
+   ],
+   [
+    "einerseits...andererseits",
+    "on one hand...on the other hand",
+    "Main + Main",
+    "Position 0 in second part"
+   ],
+   [
+    "zwar...aber",
+    "admittedly...but/though...but",
+    "Main + Main",
+    "Position 0 after aber"
+   ],
+   [
+    "je...desto",
+    "the more...the more",
+    "Subord. + Main",
+    "Dependent clause first"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Tom lernt nicht nur Deutsch, sondern auch Spanisch.",
+    "en": "Tom learns not only German but also Spanish.",
+    "note": "Emphasizes both languages equally"
+   },
+   {
+    "de": "Sie hat sowohl mit ihrer Mutter als auch mit ihrem Bruder gespielt.",
+    "en": "She played both with her mother and with her brother.",
+    "note": "Perfect tense; applies to nouns (Mutter, Bruder)"
+   },
+   {
+    "de": "Max mag weder Bier noch Wein.",
+    "en": "Max likes neither beer nor wine.",
+    "note": "Negates both options"
+   },
+   {
+    "de": "Ich kaufe entweder eine neue Couch oder einen neuen Fernseher.",
+    "en": "I'm buying either a new couch or a new TV.",
+    "note": "Only one alternative will happen"
+   },
+   {
+    "de": "Ich möchte einerseits mitgehen, andererseits bin ich zu müde.",
+    "en": "On one hand I want to go along, on the other hand I'm too tired.",
+    "note": "Shows contrast between two feelings"
+   },
+   {
+    "de": "Sie hat zwar viel Geld, aber sie gibt kaum etwas aus.",
+    "en": "She admittedly has a lot of money, but she hardly spends anything.",
+    "note": "Concedes one point (has money) before contradicting with restriction (doesn't spend)"
+   }
+  ],
+  "mistakes": [
+   "✗ Tom lernt nicht nur Deutsch sondern auch Spanisch. → ✓ Tom lernt nicht nur Deutsch, sondern auch Spanisch. — Comma before sondern auch required",
+   "✗ Er macht weder Sport noch liest Bücher. → ✓ Er macht weder Sport noch liest er Bücher. — Second clause needs subject and verb (position change allowed)",
+   "✗ Ich kaufe entweder eine Couch oder einen Fernseher kaufe. → ✓ Ich kaufe entweder eine Couch oder einen Fernseher. — Verb doesn't repeat in second part",
+   "✗ Je mehr du sprichst, besser wirst du. → ✓ Je mehr du sprichst, desto besser wirst du. — Must use desto (not just bessier) with je"
+  ],
+  "video": {
+   "url": "https://youtu.be/y_cxgBBE6iA",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction and overview of two-part connectors"
+    },
+    {
+     "t": "01:32",
+     "label": "nicht nur...sondern auch - emphasis on both parts"
+    },
+    {
+     "t": "04:56",
+     "label": "sowohl...als auch - both...and"
+    },
+    {
+     "t": "06:13",
+     "label": "weder...noch - neither...nor"
+    },
+    {
+     "t": "09:39",
+     "label": "entweder...oder - either...or alternatives"
+    },
+    {
+     "t": "11:39",
+     "label": "einerseits...andererseits - contrast between two sides"
+    },
+    {
+     "t": "14:07",
+     "label": "zwar...aber - though...but (restriction)"
+    },
+    {
+     "t": "16:17",
+     "label": "je...desto - proportional comparison with comparatives"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZgUHfzNmY_Q",
+  "title": "Top 40 German Irregular Verbs (B1 Level)",
+  "level": "B1",
+  "topic": "Wortschatz",
+  "readMinutes": 4,
+  "rule": "Irregular verbs (unregelmäßige Verben) in German change their stem vowel in the simple past (Präteritum) and/or past participle (Partizip II), making them essential to memorize for B1-level learners. Unlike regular verbs, these do not follow predictable conjugation patterns. Knowing the present tense, simple past, and past participle forms is critical for correct verb usage. Common irregular patterns include vowel changes: **e→a→o** (brechen, brach, gebrochen), **i→a→u** (springen, sprang, gesprungen), or **ei→ie→ei** (leiden, litt, gelitten). Separable irregular verbs follow the same rules but split in present tense (e.g., *er lädt auf*, *er lud auf*, *aufgeladen*). Reflexive irregular verbs use the same stem changes but include reflexive pronouns.",
+  "table": [
+   [
+    "Verb",
+    "Present (er/sie/es)",
+    "Simple Past (er/sie/es)",
+    "Past Participle",
+    "Meaning"
+   ],
+   [
+    "abnehmen",
+    "nimmt ab",
+    "nahm ab",
+    "abgenommen",
+    "lose weight"
+   ],
+   [
+    "abwaschen",
+    "wäscht ab",
+    "wusch ab",
+    "abgewaschen",
+    "wash dishes"
+   ],
+   [
+    "anziehen",
+    "zieht an",
+    "zog an",
+    "angezogen",
+    "wear/put on"
+   ],
+   [
+    "aufgeben",
+    "gibt auf",
+    "gab auf",
+    "aufgegeben",
+    "give up"
+   ],
+   [
+    "sich befinden",
+    "befindet sich",
+    "befand sich",
+    "befunden",
+    "be located"
+   ],
+   [
+    "behalten",
+    "behält",
+    "behielt",
+    "behalten",
+    "keep"
+   ],
+   [
+    "brechen",
+    "bricht",
+    "brach",
+    "gebrochen",
+    "break"
+   ],
+   [
+    "erkennen",
+    "erkennt",
+    "erkannte",
+    "erkannt",
+    "recognize"
+   ],
+   [
+    "genießen",
+    "genießt",
+    "genoss",
+    "genossen",
+    "enjoy"
+   ],
+   [
+    "sprechen",
+    "spricht",
+    "sprach",
+    "gesprochen",
+    "speak"
+   ]
+  ],
+  "examples": [
+   {
+    "de": "Letzten Monat habe ich zwei Kilo abgenommen.",
+    "en": "Last month I lost two kilograms.",
+    "note": "Separable irregular verb (abnehmen)"
+   },
+   {
+    "de": "Tony hat ein rotes T-Shirt an.",
+    "en": "Tony is wearing a red T-shirt.",
+    "note": "Present tense of anziehen (to put on/wear)"
+   },
+   {
+    "de": "Gib nicht auf! Deutschlernen ist ein Marathon.",
+    "en": "Don't give up! Learning German is a marathon.",
+    "note": "Imperative of aufgeben; present tense vowel change (a)"
+   },
+   {
+    "de": "Wo befinden sich die Milchprodukte?",
+    "en": "Where are the dairy products located?",
+    "note": "Reflexive irregular verb; formal/polite way to ask 'where is'"
+   },
+   {
+    "de": "Nina hat sich den Fuß gebrochen.",
+    "en": "Nina broke her foot.",
+    "note": "Perfect tense of brechen with reflexive meaning"
+   },
+   {
+    "de": "Hast du deinen Urlaub genossen?",
+    "en": "Did you enjoy your vacation?",
+    "note": "Perfect tense of genießen (enjoy)"
+   }
+  ],
+  "mistakes": [
+   "✗ Ich nahm zwei Kilo ab. → ✓ Ich nahm zwei Kilo ab. — Actually both correct! (simple past form is nahm, past participle is abgenommen)",
+   "✗ Er hat den Fuß brechen. → ✓ Er hat sich den Fuß gebrochen. — Past participle gebrochen, not brechen; add reflexive sich",
+   "✗ Sie wäscht das Geschir ab gestern. → ✓ Sie hat das Geschir schon abgewaschen. — Use perfect tense for past action",
+   "✗ Ich sprach Deutsch. Ich gesprach gut. → ✓ Ich sprach Deutsch. Ich bin gut Deutsch gesprochen. — Past participle is gesprochen (not gesprach), always use haben/sein in perfect"
+  ],
+  "video": {
+   "url": "https://youtu.be/ZgUHfzNmY_Q",
+   "chapters": [
+    {
+     "t": "00:00",
+     "label": "Introduction to B1 irregular verbs and the top 40 list"
+    },
+    {
+     "t": "02:06",
+     "label": "Verbs 1-10: abnehmen, abwaschen, anziehen, aufgeben, sich befinden, behalten, brechen, einfallen, sich entschließen, erfinden"
+    },
+    {
+     "t": "06:11",
+     "label": "Verbs 11-20: erkennen, genießen, heben, herausfinden, hochladen, leiden, losfahren, sinken, springen, steigen"
+    },
+    {
+     "t": "12:33",
+     "label": "Verbs 21-30: umziehen, unterscheiden, verbinden, verbringen, verlassen, vermeiden, verschwinden, versprechen, verwenden, vorhaben"
+    },
+    {
+     "t": "20:46",
+     "label": "Verbs 31-40: vorlesen, vorschlagen, wachsen, werfen, wiegen, zunehmen"
+    }
+   ]
+  }
+ }
 ]
