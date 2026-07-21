@@ -93,7 +93,10 @@ export function openTutor({ key, title, context, chips = [] }) {
         body: JSON.stringify({ context, messages: hist.slice(-10) }),
       });
       const data = await r.json();
-      hist.push({ role: "model", text: data.text || data.error || "Fehler — versuch es noch einmal." });
+      hist.push({
+        role: "model",
+        text: data.text || [data.error, data.detail].filter(Boolean).join(" — ") || "Fehler — versuch es noch einmal.",
+      });
     } catch {
       hist.push({
         role: "model",
