@@ -1,4 +1,6 @@
 # Goethe wordlist PDF is copyrighted; parse_wordlist.py re-downloads it on demand
 data/b1_wortliste.pdf
+# video transcripts are fetched locally and not redistributed
+transcripts/
 .claude/
 __pycache__/
