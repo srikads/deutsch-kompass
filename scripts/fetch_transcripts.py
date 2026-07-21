@@ -12,6 +12,7 @@ import json
 import re
 import subprocess
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -67,10 +68,13 @@ for p in playlists:
             skip += 1
             continue
         try:
+            # throttled: YouTube 429s aggressive subtitle fetching
+            time.sleep(10)
             subprocess.run(
                 ["yt-dlp", "--skip-download", "--write-auto-subs", "--sub-langs", "en.*,de.*",
-                 "--sub-format", "vtt", "-o", str(OUT / "%(id)s"), f"https://youtu.be/{vid}"],
-                capture_output=True, text=True, timeout=120, check=True,
+                 "--sub-format", "vtt", "--js-runtimes", "node", "--sleep-requests", "2",
+                 "--retry-sleep", "http:30", "-o", str(OUT / "%(id)s"), f"https://youtu.be/{vid}"],
+                capture_output=True, text=True, timeout=300, check=True,
             )
             vtts = sorted(OUT.glob(f"{vid}*.vtt"))
             if not vtts:

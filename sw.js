@@ -1,6 +1,6 @@
 // Service worker: precache the app shell + bundled content for full offline use.
 // Bump VERSION when you change app files or refresh the essay data.
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = "deutsch-kompass-" + VERSION;
 const AUDIO_CACHE = "deutsch-kompass-audio";
 
@@ -16,12 +16,14 @@ const SHELL = [
   "./js/reader.js",
   "./js/vocab.js",
   "./js/practice.js",
+  "./js/lernen.js",
   "./data/essays.json",
   "./data/b1_wordlist.json",
   "./data/drills.json",
   "./data/lesen_sets.json",
   "./data/schreiben.json",
   "./data/plan.json",
+  "./data/lessons.json",
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",

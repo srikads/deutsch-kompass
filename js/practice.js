@@ -2,12 +2,26 @@
 // Goethe-style Lesen practice sets, and Schreiben prompts with self-check.
 
 import { state, save, h, loadData, toast, bumpActivity, today, shuffle, pct } from "./core.js";
+import { getLessons, renderLernenSection, renderLesson } from "./lernen.js";
+
+async function startDrillById(view, id) {
+  if (id === "artikel") return articleDrill(view);
+  if (id === "perfekt") return perfektDrill(view);
+  const drills = await loadData("drills");
+  const d = drills.find((x) => x.id === id);
+  if (d) runQuiz(view, d.title, shuffle(d.questions).slice(0, 10), d.id);
+}
 
 export async function renderPractice(view) {
   view.innerHTML = "";
-  const [drills, lesen, schreiben] = await Promise.all([
-    loadData("drills"), loadData("lesen_sets"), loadData("schreiben"),
+  const [drills, lesen, schreiben, lessons] = await Promise.all([
+    loadData("drills"), loadData("lesen_sets"), loadData("schreiben"), getLessons(),
   ]);
+
+  if (lessons.length) {
+    renderLernenSection(view, lessons, (l) =>
+      renderLesson(view, l, () => renderPractice(view), (drillId) => startDrillById(view, drillId)));
+  }
 
   // --- Grammatik ------------------------------------------------------
   view.append(h("h2", { class: "section" }, "Grammatik-Drills"));
