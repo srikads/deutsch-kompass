@@ -94,7 +94,9 @@ export default {
         parts: [{ text: SYSTEM_PROMPT + (context ? `\n\nCONTEXT (what the student is currently reading/writing):\n${context}` : "") }],
       },
       contents: messages,
-      generationConfig: { maxOutputTokens: 800, temperature: 0.3 },
+      // generous cap: on "thinking" Flash models the internal reasoning
+      // tokens count against this limit, so 800 truncated real answers
+      generationConfig: { maxOutputTokens: 4096, temperature: 0.3 },
     };
 
     const call = (model) => fetch(
