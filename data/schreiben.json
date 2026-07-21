@@ -1,0 +1,74 @@
+[
+ {
+  "id": "s1", "teil": "Teil 1 · informelle E-Mail (ca. 80 Wörter, 20 Min)",
+  "title": "Einladung zur Geburtstagsfeier",
+  "task": "Du hast von deiner Freundin Julia eine Einladung zu ihrer Geburtstagsfeier am Samstag bekommen. Du kannst aber erst später kommen.\n\nSchreib eine E-Mail:\n• Bedanke dich für die Einladung.\n• Erkläre, warum du erst später kommen kannst.\n• Frag, ob du etwas mitbringen sollst.",
+  "points": ["Anrede und Gruß passen (Liebe Julia, … Viele Grüße)", "Alle drei Inhaltspunkte behandelt", "ca. 80 Wörter geschrieben", "Vergangenheit/Zukunft korrekt benutzt", "Sätze verbunden (weil, deshalb, und, aber)"],
+  "redemittel": ["Vielen Dank für deine Einladung!", "Ich habe mich sehr gefreut.", "Leider kann ich erst um … kommen, weil …", "Soll ich etwas mitbringen?", "Ich freue mich schon auf die Feier!"],
+  "minWords": 80
+ },
+ {
+  "id": "s2", "teil": "Teil 1 · informelle E-Mail (ca. 80 Wörter, 20 Min)",
+  "title": "Umzug — Hilfe erbitten",
+  "task": "Du ziehst nächsten Monat in eine neue Wohnung.\n\nSchreib eine E-Mail an deinen Freund Tim:\n• Berichte von der neuen Wohnung.\n• Bitte ihn, dir beim Umzug zu helfen.\n• Schlag vor, was du als Dankeschön machen möchtest.",
+  "points": ["Anrede und Gruß passen", "Alle drei Inhaltspunkte behandelt", "ca. 80 Wörter geschrieben", "Höfliche Bitte formuliert (Könntest du …?)", "Wohnung beschrieben (Zimmer, Lage, Miete …)"],
+  "redemittel": ["Stell dir vor, ich habe endlich eine neue Wohnung gefunden!", "Sie hat … Zimmer und liegt …", "Könntest du mir beim Umzug helfen?", "Als Dankeschön lade ich dich … ein.", "Melde dich bald!"],
+  "minWords": 80
+ },
+ {
+  "id": "s3", "teil": "Teil 1 · informelle E-Mail (ca. 80 Wörter, 20 Min)",
+  "title": "Kranker Kollege — Kurs verpasst",
+  "task": "Deine Kurskollegin Ana war letzte Woche krank und hat den Deutschkurs verpasst.\n\nSchreib ihr eine E-Mail:\n• Wünsch ihr gute Besserung.\n• Berichte, was ihr im Kurs gemacht habt.\n• Biete ihr deine Hilfe an.",
+  "points": ["Anrede und Gruß passen", "Alle drei Inhaltspunkte behandelt", "ca. 80 Wörter geschrieben", "Perfekt korrekt benutzt (wir haben … gemacht)", "Hilfsangebot formuliert (Ich kann dir … geben/erklären)"],
+  "redemittel": ["Ich hoffe, es geht dir schon besser!", "Gute Besserung!", "Im Kurs haben wir … gelernt.", "Ich kann dir meine Notizen geben.", "Wenn du Fragen hast, ruf mich einfach an."],
+  "minWords": 80
+ },
+ {
+  "id": "s4", "teil": "Teil 2 · Forumsbeitrag mit Meinung (ca. 80 Wörter, 25 Min)",
+  "title": "Handys in der Schule?",
+  "task": "In einem Online-Forum wird diskutiert: „Sollen Handys in der Schule verboten werden?“\n\nSchreib deine Meinung dazu (ca. 80 Wörter):\n• Sag, was du davon hältst.\n• Nenne Gründe und Beispiele.",
+  "points": ["Meinung klar formuliert (Meiner Meinung nach …)", "Mindestens zwei Gründe genannt", "Ein Beispiel gegeben", "ca. 80 Wörter geschrieben", "Konnektoren benutzt (weil, deshalb, außerdem, einerseits/andererseits)"],
+  "redemittel": ["Meiner Meinung nach …", "Ich bin (nicht) der Meinung, dass …", "Einerseits …, andererseits …", "Ein gutes Beispiel dafür ist …", "Zusammenfassend finde ich, dass …"],
+  "minWords": 80
+ },
+ {
+  "id": "s5", "teil": "Teil 2 · Forumsbeitrag mit Meinung (ca. 80 Wörter, 25 Min)",
+  "title": "Leben auf dem Land oder in der Stadt?",
+  "task": "In einem Forum wird diskutiert: „Wo lebt man besser — auf dem Land oder in der Stadt?“\n\nSchreib deine Meinung dazu (ca. 80 Wörter):\n• Sag, wo du lieber leben möchtest.\n• Begründe deine Meinung mit Beispielen aus deiner Erfahrung.",
+  "points": ["Meinung klar formuliert", "Vor- und/oder Nachteile genannt", "Eigene Erfahrung erwähnt", "ca. 80 Wörter geschrieben", "Vergleiche benutzt (besser als, mehr … als)"],
+  "redemittel": ["Ich persönlich lebe lieber …", "Der größte Vorteil ist, dass …", "Im Vergleich zum Land ist die Stadt …", "Aus meiner Erfahrung kann ich sagen, dass …", "Deshalb würde ich … wählen."],
+  "minWords": 80
+ },
+ {
+  "id": "s6", "teil": "Teil 2 · Forumsbeitrag mit Meinung (ca. 80 Wörter, 25 Min)",
+  "title": "Online einkaufen oder im Geschäft?",
+  "task": "In einem Forum wird diskutiert: „Immer mehr Menschen kaufen online ein. Ist das eine gute Entwicklung?“\n\nSchreib deine Meinung dazu (ca. 80 Wörter):\n• Sag, wie du selbst einkaufst.\n• Nenne Vorteile und Nachteile.",
+  "points": ["Meinung klar formuliert", "Vorteile und Nachteile genannt", "Eigene Gewohnheiten beschrieben", "ca. 80 Wörter geschrieben", "Konnektoren benutzt"],
+  "redemittel": ["Ich kaufe meistens … ein, weil …", "Ein großer Vorteil ist, dass …", "Allerdings gibt es auch Nachteile: …", "Man muss aufpassen, dass …", "Insgesamt denke ich, dass …"],
+  "minWords": 80
+ },
+ {
+  "id": "s7", "teil": "Teil 3 · halbformelle E-Mail (ca. 40 Wörter, 15 Min)",
+  "title": "Termin absagen",
+  "task": "Du hast morgen einen Termin bei deiner Deutschlehrerin Frau Schneider (Beratungsgespräch). Du bist aber krank geworden.\n\nSchreib eine höfliche E-Mail:\n• Sag den Termin ab und entschuldige dich.\n• Bitte um einen neuen Termin.",
+  "points": ["Höfliche Anrede (Sehr geehrte Frau Schneider / Liebe Frau Schneider)", "Absage + Entschuldigung", "Bitte um neuen Termin", "ca. 40 Wörter", "Sie-Form durchgehend korrekt"],
+  "redemittel": ["Sehr geehrte Frau Schneider,", "leider muss ich den Termin am … absagen, weil …", "Ich bitte um Entschuldigung.", "Könnten wir einen neuen Termin vereinbaren?", "Mit freundlichen Grüßen"],
+  "minWords": 40
+ },
+ {
+  "id": "s8", "teil": "Teil 3 · halbformelle E-Mail (ca. 40 Wörter, 15 Min)",
+  "title": "Anfrage an den Vermieter",
+  "task": "In deiner Wohnung ist die Heizung kaputt.\n\nSchreib eine E-Mail an deinen Vermieter, Herrn Krause:\n• Beschreibe das Problem.\n• Bitte darum, dass es schnell repariert wird.",
+  "points": ["Höfliche Anrede und Gruß", "Problem klar beschrieben", "Höfliche Bitte um Reparatur", "ca. 40 Wörter", "Sie-Form korrekt"],
+  "redemittel": ["Sehr geehrter Herr Krause,", "leider funktioniert seit … die Heizung nicht mehr.", "Es ist sehr kalt in der Wohnung.", "Könnten Sie bitte so schnell wie möglich …?", "Vielen Dank im Voraus."],
+  "minWords": 40
+ },
+ {
+  "id": "s9", "teil": "Teil 3 · halbformelle E-Mail (ca. 40 Wörter, 15 Min)",
+  "title": "Nachricht an den Chef",
+  "task": "Du kannst morgen nicht zur Arbeit kommen, weil dein Kind krank ist.\n\nSchreib eine E-Mail an deinen Chef, Herrn Weber:\n• Erkläre die Situation.\n• Sag, wie du deine Aufgaben regeln möchtest.",
+  "points": ["Höfliche Anrede und Gruß", "Grund genannt", "Lösung für die Aufgaben vorgeschlagen", "ca. 40 Wörter", "Sie-Form korrekt"],
+  "redemittel": ["Sehr geehrter Herr Weber,", "leider kann ich morgen nicht zur Arbeit kommen, weil …", "Meine Kollegin … übernimmt …", "Ich bin per E-Mail erreichbar.", "Vielen Dank für Ihr Verständnis."],
+  "minWords": 40
+ }
+]

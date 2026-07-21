@@ -1,0 +1,106 @@
+[
+ {
+  "id": "praep-dat-akk",
+  "title": "Präpositionen + Kasus",
+  "subtitle": "Dativ oder Akkusativ nach festen Präpositionen",
+  "questions": [
+   { "q": "Ich fahre mit ___ Bus zur Arbeit.", "opts": ["dem", "den", "der"], "a": 0, "why": "mit + Dativ → mit dem Bus" },
+   { "q": "Das Geschenk ist für ___ Bruder.", "opts": ["meinem", "meinen", "mein"], "a": 1, "why": "für + Akkusativ → für meinen Bruder" },
+   { "q": "Sie wohnt seit ___ Jahr in Berlin.", "opts": ["einem", "einen", "ein"], "a": 0, "why": "seit + Dativ → seit einem Jahr" },
+   { "q": "Er kommt gerade aus ___ Schule.", "opts": ["die", "der", "dem"], "a": 1, "why": "aus + Dativ → aus der Schule" },
+   { "q": "Wir gehen ohne ___ Auto in die Stadt.", "opts": ["dem", "das", "den"], "a": 1, "why": "ohne + Akkusativ → ohne das Auto" },
+   { "q": "Nach ___ Kurs gehen wir essen.", "opts": ["den", "dem", "der"], "a": 1, "why": "nach + Dativ → nach dem Kurs" },
+   { "q": "Der Zug fährt durch ___ Tunnel.", "opts": ["den", "dem", "der"], "a": 0, "why": "durch + Akkusativ → durch den Tunnel" },
+   { "q": "Ich habe das Buch von ___ Lehrerin bekommen.", "opts": ["die", "der", "dem"], "a": 1, "why": "von + Dativ → von der Lehrerin" },
+   { "q": "Sie kämpft gegen ___ Vorschlag.", "opts": ["den", "dem", "der"], "a": 0, "why": "gegen + Akkusativ → gegen den Vorschlag" },
+   { "q": "Bei ___ Wetter bleiben wir zu Hause.", "opts": ["diesem", "dieses", "diesen"], "a": 0, "why": "bei + Dativ → bei diesem Wetter" },
+   { "q": "Er läuft um ___ See.", "opts": ["den", "dem", "der"], "a": 0, "why": "um + Akkusativ → um den See" },
+   { "q": "Das ist ein Geschenk zu ___ Geburtstag.", "opts": ["deinen", "deinem", "dein"], "a": 1, "why": "zu + Dativ → zu deinem Geburtstag" }
+  ]
+ },
+ {
+  "id": "wechselpraep",
+  "title": "Wechselpräpositionen",
+  "subtitle": "Wohin? (Akkusativ) oder Wo? (Dativ)",
+  "questions": [
+   { "q": "Ich lege das Buch auf ___ Tisch.", "opts": ["den", "dem"], "a": 0, "why": "Wohin? → Akkusativ: auf den Tisch" },
+   { "q": "Das Buch liegt auf ___ Tisch.", "opts": ["den", "dem"], "a": 1, "why": "Wo? → Dativ: auf dem Tisch" },
+   { "q": "Wir hängen das Bild an ___ Wand.", "opts": ["die", "der"], "a": 0, "why": "Wohin? → Akkusativ: an die Wand" },
+   { "q": "Die Kinder spielen in ___ Garten.", "opts": ["den", "dem"], "a": 1, "why": "Wo? → Dativ: im/in dem Garten" },
+   { "q": "Sie stellt die Vase zwischen ___ Bücher.", "opts": ["die", "den"], "a": 0, "why": "Wohin? → Akkusativ: zwischen die Bücher" },
+   { "q": "Der Hund schläft unter ___ Bett.", "opts": ["das", "dem"], "a": 1, "why": "Wo? → Dativ: unter dem Bett" },
+   { "q": "Er geht in ___ Küche.", "opts": ["die", "der"], "a": 0, "why": "Wohin? → Akkusativ: in die Küche" },
+   { "q": "Die Lampe hängt über ___ Tisch.", "opts": ["den", "dem"], "a": 1, "why": "Wo? → Dativ: über dem Tisch" },
+   { "q": "Stell dich neben ___ Fenster!", "opts": ["das", "dem"], "a": 0, "why": "Wohin? → Akkusativ: neben das Fenster" },
+   { "q": "Das Auto steht vor ___ Haus.", "opts": ["das", "dem"], "a": 1, "why": "Wo? → Dativ: vor dem Haus" }
+  ]
+ },
+ {
+  "id": "konnektoren",
+  "title": "weil, deshalb, obwohl, trotzdem",
+  "subtitle": "Konnektoren und Wortstellung",
+  "questions": [
+   { "q": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.", "opts": ["weil", "deshalb", "trotzdem"], "a": 0, "why": "Grund → weil (Verb ans Ende)" },
+   { "q": "Es regnet stark, ___ gehen wir spazieren.", "opts": ["obwohl", "trotzdem", "weil"], "a": 1, "why": "Gegensatz im Hauptsatz → trotzdem" },
+   { "q": "___ er müde war, hat er weitergearbeitet.", "opts": ["Deshalb", "Weil", "Obwohl"], "a": 2, "why": "Gegensatz im Nebensatz → obwohl" },
+   { "q": "Sie hat viel gelernt, ___ hat sie die Prüfung bestanden.", "opts": ["weil", "deshalb", "obwohl"], "a": 1, "why": "Folge → deshalb (Verb direkt danach)" },
+   { "q": "Welcher Satz ist richtig?", "opts": ["…, weil ich habe keine Zeit.", "…, weil ich keine Zeit habe.", "…, weil habe ich keine Zeit."], "a": 1, "why": "Nach weil steht das Verb am Satzende." },
+   { "q": "Er nimmt den Bus, ___ sein Auto kaputt ist.", "opts": ["denn", "weil", "deshalb"], "a": 1, "why": "Nebensatz mit Verb am Ende → weil (denn wäre Hauptsatz-Wortstellung)" },
+   { "q": "Ich habe Kopfschmerzen. ___ nehme ich eine Tablette.", "opts": ["Weil", "Obwohl", "Deshalb"], "a": 2, "why": "Folge → deshalb" },
+   { "q": "___ das Restaurant teuer ist, essen wir oft dort.", "opts": ["Obwohl", "Weil", "Trotzdem"], "a": 0, "why": "Gegensatz + Nebensatz → obwohl" },
+   { "q": "Welcher Satz ist richtig?", "opts": ["Obwohl war ich müde, ging ich zur Arbeit.", "Obwohl ich müde war, ging ich zur Arbeit.", "Obwohl ich war müde, ging ich zur Arbeit."], "a": 1, "why": "Nebensatz: Verb am Ende → 'müde war'" },
+   { "q": "Sie spricht gut Deutsch, ___ sie erst ein Jahr lernt.", "opts": ["deshalb", "obwohl", "weil"], "a": 1, "why": "Gegensatz → obwohl" }
+  ]
+ },
+ {
+  "id": "konjunktiv2",
+  "title": "Konjunktiv II",
+  "subtitle": "Höfliche Bitten, Wünsche, Ratschläge",
+  "questions": [
+   { "q": "Höfliche Bitte: ___ Sie mir bitte helfen?", "opts": ["Können", "Könnten", "Konnten"], "a": 1, "why": "Konjunktiv II: könnten = höflich" },
+   { "q": "Wunsch: Ich ___ gern mehr Freizeit.", "opts": ["hätte", "habe", "hatte"], "a": 0, "why": "hätte = Konjunktiv II von haben" },
+   { "q": "Ratschlag: Du ___ mehr schlafen.", "opts": ["solltest", "sollst", "solltest hast"], "a": 0, "why": "solltest = Ratschlag im Konjunktiv II" },
+   { "q": "Wenn ich reich ___, würde ich viel reisen.", "opts": ["bin", "wäre", "war"], "a": 1, "why": "Irreale Bedingung: wäre" },
+   { "q": "___ es möglich, den Termin zu verschieben?", "opts": ["Wäre", "War", "Ist gewesen"], "a": 0, "why": "höfliche Frage: Wäre es möglich…" },
+   { "q": "Ich ___ lieber zu Hause bleiben.", "opts": ["würde", "werde", "wurde"], "a": 0, "why": "würde + Infinitiv" },
+   { "q": "An deiner Stelle ___ ich zum Arzt gehen.", "opts": ["würde", "werde", "will"], "a": 0, "why": "Ratschlag: An deiner Stelle würde ich…" },
+   { "q": "___ du mir dein Wörterbuch leihen?", "opts": ["Würdest", "Wirst", "Wurdest"], "a": 0, "why": "höfliche Bitte: Würdest du…" },
+   { "q": "Ich wünschte, ich ___ mehr Zeit für Sport.", "opts": ["hätte", "habe", "haben würde sein"], "a": 0, "why": "Wunsch: ich hätte" },
+   { "q": "Es ___ schön, wenn du kommen könntest.", "opts": ["wäre", "ist gewesen", "war"], "a": 0, "why": "Es wäre schön, wenn…" }
+  ]
+ },
+ {
+  "id": "relativsaetze",
+  "title": "Relativsätze",
+  "subtitle": "Relativpronomen im Nominativ, Akkusativ, Dativ",
+  "questions": [
+   { "q": "Das ist der Mann, ___ nebenan wohnt.", "opts": ["der", "den", "dem"], "a": 0, "why": "Nominativ (wer wohnt?) → der" },
+   { "q": "Das ist der Film, ___ ich gestern gesehen habe.", "opts": ["der", "den", "dem"], "a": 1, "why": "Akkusativ (wen/was gesehen?) → den" },
+   { "q": "Die Frau, ___ ich geholfen habe, ist meine Nachbarin.", "opts": ["die", "der", "denen"], "a": 1, "why": "helfen + Dativ → der" },
+   { "q": "Das Kind, ___ dort spielt, ist meine Tochter.", "opts": ["das", "den", "dem"], "a": 0, "why": "Nominativ, neutrum → das" },
+   { "q": "Die Kollegen, mit ___ ich arbeite, sind sehr nett.", "opts": ["die", "denen", "den"], "a": 1, "why": "mit + Dativ Plural → denen" },
+   { "q": "Das Buch, ___ auf dem Tisch liegt, gehört mir.", "opts": ["das", "dem", "den"], "a": 0, "why": "Nominativ, neutrum → das" },
+   { "q": "Der Kuchen, ___ du gebacken hast, schmeckt super.", "opts": ["der", "den", "dem"], "a": 1, "why": "Akkusativ → den" },
+   { "q": "Die Stadt, in ___ ich geboren wurde, ist klein.", "opts": ["die", "der", "dem"], "a": 1, "why": "in + Dativ (Wo?), feminin → der" },
+   { "q": "Die Leute, ___ hier wohnen, sind freundlich.", "opts": ["denen", "die", "der"], "a": 1, "why": "Nominativ Plural → die" },
+   { "q": "Das Handy, ___ ich mir gekauft habe, war teuer.", "opts": ["das", "dem", "den"], "a": 0, "why": "Akkusativ, neutrum → das" }
+  ]
+ },
+ {
+  "id": "praeteritum",
+  "title": "Präteritum",
+  "subtitle": "Wichtige Verben in der Vergangenheit (für Berichte & Märchen)",
+  "questions": [
+   { "q": "Präteritum von <b>sein</b> (er): er ___", "opts": ["war", "wäre", "ist gewesen"], "a": 0, "why": "sein → war" },
+   { "q": "Präteritum von <b>haben</b> (wir): wir ___", "opts": ["hätten", "hatten", "haben gehabt"], "a": 1, "why": "haben → hatten" },
+   { "q": "Präteritum von <b>gehen</b> (sie, Sg.): sie ___", "opts": ["gehte", "ging", "gang"], "a": 1, "why": "gehen → ging" },
+   { "q": "Präteritum von <b>kommen</b> (ich): ich ___", "opts": ["kam", "komme", "kammte"], "a": 0, "why": "kommen → kam" },
+   { "q": "Präteritum von <b>können</b> (er): er ___", "opts": ["könnte", "konnte", "kann"], "a": 1, "why": "können → konnte (könnte = Konjunktiv!)" },
+   { "q": "Präteritum von <b>geben</b> (es): es ___", "opts": ["gab", "gebte", "gibt"], "a": 0, "why": "geben → gab (es gab = there was)" },
+   { "q": "Präteritum von <b>wissen</b> (ich): ich ___", "opts": ["wisste", "wusste", "weißte"], "a": 1, "why": "wissen → wusste" },
+   { "q": "Präteritum von <b>fahren</b> (du): du ___", "opts": ["fuhrst", "fahrtest", "führst"], "a": 0, "why": "fahren → fuhr, du fuhrst" },
+   { "q": "Präteritum von <b>müssen</b> (sie, Pl.): sie ___", "opts": ["mussten", "müssten", "gemusst haben"], "a": 0, "why": "müssen → mussten" },
+   { "q": "Präteritum von <b>nehmen</b> (er): er ___", "opts": ["nahm", "nehmte", "nimmte"], "a": 0, "why": "nehmen → nahm" }
+  ]
+ }
+]

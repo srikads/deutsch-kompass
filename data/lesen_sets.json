@@ -1,0 +1,43 @@
+[
+ {
+  "id": "lesen-1",
+  "title": "Blog: Mein Umzug nach Hamburg",
+  "teil": "Format wie Lesen Teil 1 (richtig/falsch + Auswahl)",
+  "text": "Liebe Leserinnen und Leser,\n\nseit drei Monaten wohne ich jetzt in Hamburg und ich muss sagen: Es war die beste Entscheidung meines Lebens! Viele Freunde haben mich gewarnt: „In Hamburg regnet es doch immer!“ Aber das stimmt gar nicht. Klar, es regnet öfter als in München, wo ich vorher gewohnt habe, aber dafür ist die Luft frisch und die Stadt ist grün.\n\nAm Anfang war es schwierig, eine Wohnung zu finden. Ich habe über fünfzig Nachrichten geschrieben und nur drei Antworten bekommen. Am Ende hatte ich Glück: Eine Kollegin kannte jemanden, der ein Zimmer frei hatte. Jetzt wohne ich in einer WG mit zwei netten Mitbewohnern im Stadtteil Altona.\n\nMeine Arbeit als Krankenpflegerin habe ich schon nach zwei Wochen gefunden — in meinem Beruf werden überall Leute gesucht. Das Krankenhaus liegt nur zehn Minuten mit dem Fahrrad von meiner Wohnung entfernt. In München habe ich jeden Tag fast eine Stunde im Auto gesessen!\n\nWas mir fehlt? Die Berge natürlich. Und meine Familie. Aber meine Eltern haben schon versprochen, mich im Herbst zu besuchen. Dann zeige ich ihnen den Hafen und wir essen zusammen Fischbrötchen.\n\nEure Sandra",
+  "questions": [
+   { "q": "Sandra wohnt seit einem Jahr in Hamburg.", "opts": ["richtig", "falsch"], "a": 1, "why": "Sie wohnt seit drei Monaten dort." },
+   { "q": "Sandra findet, dass es in Hamburg ständig regnet.", "opts": ["richtig", "falsch"], "a": 1, "why": "Sie sagt: „Aber das stimmt gar nicht.“" },
+   { "q": "Die Wohnungssuche war am Anfang schwer.", "opts": ["richtig", "falsch"], "a": 0, "why": "Über 50 Nachrichten, nur 3 Antworten." },
+   { "q": "Wie hat Sandra ihr Zimmer gefunden?", "opts": ["über eine Anzeige im Internet", "durch den Kontakt einer Kollegin", "über das Krankenhaus"], "a": 1, "why": "Eine Kollegin kannte jemanden mit einem freien Zimmer." },
+   { "q": "Wie kommt Sandra zur Arbeit?", "opts": ["mit dem Auto", "mit dem Fahrrad", "mit dem Bus"], "a": 1, "why": "Zehn Minuten mit dem Fahrrad." },
+   { "q": "Was vermisst Sandra in Hamburg?", "opts": ["ihre Arbeit in München", "die Berge und ihre Familie", "das Essen"], "a": 1, "why": "„Was mir fehlt? Die Berge natürlich. Und meine Familie.“" }
+  ]
+ },
+ {
+  "id": "lesen-2",
+  "title": "Zeitungsartikel: Immer mehr Menschen fahren Rad",
+  "teil": "Format wie Lesen Teil 2 (Multiple Choice)",
+  "text": "Immer mehr Menschen in Deutschland steigen aufs Fahrrad. Nach einer neuen Studie fahren 44 Prozent der Deutschen mehrmals pro Woche mit dem Rad — vor zehn Jahren waren es nur 34 Prozent. Besonders beliebt sind E-Bikes: Jedes dritte verkaufte Fahrrad hat heute einen Elektromotor.\n\nDie Gründe für den Trend sind unterschiedlich. Viele wollen etwas für ihre Gesundheit tun, andere möchten Geld sparen, weil Benzin und Bus-Tickets teurer geworden sind. Für viele junge Leute in den Großstädten spielt auch der Umweltschutz eine wichtige Rolle.\n\nAber es gibt auch Probleme: In vielen Städten fehlen sichere Radwege. Im letzten Jahr gab es wieder mehr Unfälle mit Radfahrern. Experten fordern deshalb, dass die Städte mehr Geld für den Radverkehr ausgeben. „Wer will, dass die Menschen Rad fahren, muss auch dafür sorgen, dass es sicher ist“, sagt Verkehrsforscherin Dr. Maria Weber.\n\nEinige Städte machen es schon vor: In Münster gibt es seit Jahren breite Radwege und große Parkhäuser nur für Fahrräder. Dort fahren die Menschen mehr Rad als Auto.",
+  "questions": [
+   { "q": "Wie viele Deutsche fahren heute mehrmals pro Woche Rad?", "opts": ["34 Prozent", "44 Prozent", "die Hälfte"], "a": 1, "why": "44 Prozent — vor zehn Jahren waren es 34." },
+   { "q": "Was steht im Text über E-Bikes?", "opts": ["Sie sind zu teuer für die meisten.", "Jedes dritte verkaufte Rad ist ein E-Bike.", "Sie sind bei jungen Leuten unbeliebt."], "a": 1, "why": "„Jedes dritte verkaufte Fahrrad hat heute einen Elektromotor.“" },
+   { "q": "Warum fahren viele Menschen mehr Rad?", "opts": ["nur wegen der Umwelt", "aus verschiedenen Gründen, z. B. Gesundheit und Geld", "weil es keine Busse mehr gibt"], "a": 1, "why": "Gesundheit, Geld sparen, Umweltschutz — mehrere Gründe." },
+   { "q": "Welches Problem nennt der Text?", "opts": ["Es gibt zu wenige sichere Radwege.", "E-Bikes gehen oft kaputt.", "Radfahren ist zu langsam."], "a": 0, "why": "„In vielen Städten fehlen sichere Radwege.“" },
+   { "q": "Was fordern Experten?", "opts": ["mehr Parkplätze für Autos", "dass Städte mehr Geld für den Radverkehr ausgeben", "ein Verbot für E-Bikes"], "a": 1, "why": "Direkt im Text gefordert." },
+   { "q": "Was ist das Besondere an Münster?", "opts": ["Dort gibt es keine Autos mehr.", "Dort fahren die Menschen mehr Rad als Auto.", "Dort sind Fahrräder verboten."], "a": 1, "why": "Letzter Absatz." }
+  ]
+ },
+ {
+  "id": "lesen-3",
+  "title": "Anzeigen: Welche passt?",
+  "teil": "Format wie Lesen Teil 3 (Situationen und Anzeigen zuordnen)",
+  "text": "ANZEIGE A — Sprachschule Lingua: Deutschkurse B1/B2 am Abend, zweimal pro Woche, kleine Gruppen, Prüfungsvorbereitung Goethe-Zertifikat. Probestunde kostenlos!\n\nANZEIGE B — Nachhilfe-Netz: Studentin gibt Einzelunterricht in Deutsch, flexibel bei dir zu Hause oder online, 15 €/Stunde.\n\nANZEIGE C — Volkshochschule: Intensivkurs Deutsch B1, jeden Vormittag 9–13 Uhr, 4 Wochen, mit offiziellem Test am Ende.\n\nANZEIGE D — Tandem-Café: Sprachpartner treffen! Jeden Donnerstag ab 18 Uhr, Deutsch–Englisch, Deutsch–Spanisch u. v. m. Eintritt frei, keine Anmeldung.\n\nANZEIGE E — Lernstudio Fit: Mathematik- und Physik-Nachhilfe für Schüler der Klassen 5–13, erfahrene Lehrer, Erfolgsgarantie.",
+  "questions": [
+   { "q": "Ali arbeitet tagsüber und möchte abends einen Kurs zur Vorbereitung auf die B1-Prüfung besuchen.", "opts": ["Anzeige A", "Anzeige C", "Anzeige D"], "a": 0, "why": "Abendkurs + Goethe-Prüfungsvorbereitung → A" },
+   { "q": "Marta hat vormittags Zeit und möchte in kurzer Zeit intensiv Deutsch lernen.", "opts": ["Anzeige B", "Anzeige C", "Anzeige A"], "a": 1, "why": "Intensivkurs jeden Vormittag → C" },
+   { "q": "Jonas möchte kostenlos Deutsch sprechen üben und neue Leute treffen.", "opts": ["Anzeige D", "Anzeige B", "Anzeige E"], "a": 0, "why": "Tandem-Café, Eintritt frei → D" },
+   { "q": "Aynur möchte Einzelunterricht bei sich zu Hause und hat wenig Geld.", "opts": ["Anzeige A", "Anzeige B", "Anzeige C"], "a": 1, "why": "Einzelunterricht zu Hause, 15 €/Stunde → B" },
+   { "q": "Pedro sucht Hilfe in Deutsch. Welche Anzeige passt NICHT zum Thema Deutschlernen?", "opts": ["Anzeige E", "Anzeige D", "Anzeige C"], "a": 0, "why": "E ist Mathe/Physik-Nachhilfe." }
+  ]
+ }
+]
