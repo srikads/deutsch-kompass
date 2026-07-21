@@ -2,6 +2,7 @@
 // Reads data/lessons.json (produced by the transcript->distillation pipeline).
 
 import { state, save, h, loadData, toast, bumpActivity, today, esc } from "./core.js";
+import { openTutor } from "./tutor.js";
 
 // lesson topic -> drill id in data/drills.json (or generated drills)
 const TOPIC_DRILL = {
@@ -109,6 +110,20 @@ export function renderLesson(view, lesson, goBack, startDrill) {
     for (const m of lesson.mistakes) mi.append(h("div", { class: "small", style: "padding:4px 0" }, m));
     view.append(mi);
   }
+
+  view.append(h("button", {
+    class: "btn blue", style: "width:100%;margin-top:4px",
+    onclick: () => openTutor({
+      key: "lesson-" + lesson.id,
+      title: lesson.title,
+      context: `Grammar lesson "${lesson.title}" (${lesson.level}, topic: ${lesson.topic}).\nRule:\n${lesson.rule}\nExamples:\n${(lesson.examples || []).map((e) => e.de).join("\n")}`,
+      chips: [
+        { label: "Einfacher erklären", prompt: "Explain this rule more simply, as if I keep getting it wrong." },
+        { label: "Mehr Beispiele", prompt: "Give me 4 new B1-level example sentences for this rule with English translations." },
+        { label: "Teste mich", prompt: "Give me one fill-in-the-gap question on this rule. Wait for my answer, then correct me." },
+      ],
+    }),
+  }, "💬 Lehrer fragen"));
 
   const drillId = TOPIC_DRILL[lesson.topic];
   const done = !!state.lessonsRead[lesson.id];

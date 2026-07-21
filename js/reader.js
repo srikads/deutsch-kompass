@@ -5,6 +5,7 @@ import { state, save, h, loadData, openSheet, closeSheet, toast, bumpActivity, t
 import { lookup } from "./dict.js";
 import { speak, stopTTS, isSpeaking, ttsSupported } from "./tts.js";
 import { addCard } from "./vocab.js";
+import { openTutor } from "./tutor.js";
 
 const filters = { level: "alle", topic: "alle", q: "", unread: false };
 
@@ -243,8 +244,22 @@ async function showWordSheet(word, essay, spanEl) {
   }
 
   const back = res.translation || res.gloss || res.wiktionary?.[0]?.defs?.[0] || "";
+  const paragraph = spanEl?.parentElement?.textContent?.trim() || "";
   box.append(
-    h("div", { class: "row", style: "margin-top:14px" },
+    h("button", {
+      class: "btn blue", style: "width:100%;margin-top:14px",
+      onclick: () => openTutor({
+        key: "essay-" + (essay?.id || "x"),
+        title: essay?.title || res.word,
+        context: `Essay: "${essay?.title}" (level ${essay?.level}).\nParagraph the student is reading:\n${paragraph}\n\nThe student tapped the word: "${res.word}".`,
+        chips: [
+          { label: "Diesen Satz erklären", prompt: `Explain the structure of the sentence containing "${res.word}" — word order, clauses, why each part is where it is.` },
+          { label: "Warum diese Form?", prompt: `Why does "${res.word}" appear in this form here (case/conjugation/declension)?` },
+          { label: "Welche Zeitform?", prompt: "Which tense is used in this paragraph and why?" },
+        ],
+      }),
+    }, "💬 Lehrer fragen"),
+    h("div", { class: "row", style: "margin-top:8px" },
       h("button", {
         class: "btn grow",
         onclick: () => {

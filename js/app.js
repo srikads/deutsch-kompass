@@ -148,6 +148,17 @@ async function renderPlan(v) {
   });
   s.append(h("label", { class: "small" }, "Prüfungsdatum (Goethe B1):"), dateIn);
 
+  const tutorIn = h("input", {
+    type: "text", placeholder: "https://….workers.dev",
+    value: state.settings.tutorUrl || "", style: "margin-top:10px",
+  });
+  tutorIn.addEventListener("change", () => {
+    state.settings.tutorUrl = tutorIn.value.trim(); save();
+    toast(state.settings.tutorUrl ? "Lehrer-URL gespeichert" : "Lehrer-URL entfernt");
+  });
+  s.append(h("label", { class: "small", style: "display:block;margin-top:10px" },
+    "Lehrer-URL (Cloudflare Worker — Anleitung: docs/TUTOR_SETUP.md):"), tutorIn);
+
   const exp = h("button", {
     class: "btn ghost sm", style: "margin-top:10px",
     onclick: () => {

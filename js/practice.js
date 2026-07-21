@@ -3,6 +3,7 @@
 
 import { state, save, h, loadData, toast, bumpActivity, today, shuffle, pct } from "./core.js";
 import { getLessons, renderLernenSection, renderLesson } from "./lernen.js";
+import { openTutor } from "./tutor.js";
 
 async function startDrillById(view, id) {
   if (id === "artikel") return articleDrill(view);
@@ -195,6 +196,22 @@ function runSchreiben(view, p) {
       h("h3", {}, "Redemittel"),
       h("div", { class: "small" }, p.redemittel.join(" · "))),
     ta, count,
+    h("button", {
+      class: "btn blue", style: "width:100%;margin:10px 0 0",
+      onclick: () => {
+        if (!ta.value.trim()) return toast("Schreib zuerst deinen Text");
+        openTutor({
+          key: "schreiben-" + p.id + "-" + Date.now().toString(36).slice(0, 6),
+          title: p.title,
+          context: `Goethe B1 Schreiben task (${p.teil}):\n${p.task}\n\nThe student's draft:\n${ta.value.trim()}`,
+          chips: [
+            { label: "Text korrigieren", prompt: "Correct my draft: list my mistakes as ✗ wrong → ✓ right with short reasons, then a 1-2 sentence verdict. Don't rewrite the whole text." },
+            { label: "Habe ich alle Punkte?", prompt: "Check against the task: did I cover all required content points and the right register (du/Sie)?" },
+            { label: "Bessere Redemittel", prompt: "Suggest 3 B1-level phrases that would improve my text, tied to what I wrote." },
+          ],
+        });
+      },
+    }, "💬 Text vom Lehrer prüfen lassen"),
     h("div", { class: "card" },
       h("h3", {}, "Selbst-Check (wie in der Prüfung bewertet)"),
       ...checkBoxes),
