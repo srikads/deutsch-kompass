@@ -103,3 +103,15 @@ function speakSentence(c) {
 export function isSpeaking() {
   return !!current;
 }
+
+// one-off utterance (feed/path exercises) — no highlighting
+export function sayText(text, rate = 0.9) {
+  if (!ttsSupported() || !text) return;
+  stopTTS();
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = "de-DE";
+  const v = germanVoice();
+  if (v) u.voice = v;
+  u.rate = rate;
+  speechSynthesis.speak(u);
+}

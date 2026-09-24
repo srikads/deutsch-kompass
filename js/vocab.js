@@ -30,7 +30,7 @@ export function addCard(front, extra = {}) {
   save();
 }
 
-function grade(card, g) {
+export function grade(card, g) {
   // g: 0 nochmal, 1 schwer, 2 gut, 3 leicht
   if (g === 0) {
     card.lapses++; card.reps = 0; card.interval = 0;

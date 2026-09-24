@@ -1,5 +1,7 @@
 // Shared state, storage, data loading and small UI helpers.
 
+import { newGame, addXp, XP, streakLen, maybeEarnFreeze } from "./game.js";
+
 const STATE_KEY = "dk_state_v1";
 const CACHE_KEY = "dk_dictcache_v1";
 
@@ -12,8 +14,14 @@ export const state = load(STATE_KEY, {
   lesenDone: {},      // setId -> {score, total, date}
   schreibenDone: {},  // promptId -> ISO date
   drillStats: {},     // drillTopic -> {right, wrong}
-  activity: {},       // ISO date -> {reviews, essays, drills, lesen, schreiben, newCards}
+  activity: {},       // ISO date -> {reviews, essays, drills, lesen, schreiben, newCards, feed, blitz, path}
+  game: newGame(),    // XP, levels, streak freezes, path progress (see game.js)
 });
+// older saves: fill in game fields added later
+state.game = Object.assign(newGame(), state.game);
+
+export const dailyGoal = () => state.settings.dailyGoal || 100;
+export const soundOn = () => state.settings.sound !== false;
 
 export const dictCache = load(CACHE_KEY, {});
 
@@ -46,11 +54,21 @@ export function saveCache() {
 
 export const today = () => new Date().toISOString().slice(0, 10);
 
-export function bumpActivity(field, n = 1) {
+// Records an activity and awards XP (from game.XP unless `xp` is given).
+// Listeners (app.js) get a "dk-xp" event to animate the HUD.
+export function bumpActivity(field, n = 1, xp = (XP[field] || 0) * n) {
   const t = today();
   const a = (state.activity[t] = state.activity[t] || {});
   a[field] = (a[field] || 0) + n;
+  let res = null;
+  if (xp > 0) {
+    res = addXp(state.game, xp, t, dailyGoal());
+    if (res.goalReached) res.freezeEarned = maybeEarnFreeze(state.game, streak());
+  }
   save();
+  // fired even for 0 XP so the HUD's streak flame lights up on any activity
+  if (typeof window !== "undefined") window.dispatchEvent(new CustomEvent("dk-xp", { detail: res || { gained: 0 } }));
+  return res;
 }
 
 export function daysToExam() {
@@ -59,15 +77,9 @@ export function daysToExam() {
 }
 
 export function streak() {
-  // consecutive days (ending today or yesterday) with any activity
-  let n = 0;
-  const d = new Date();
-  if (!state.activity[d.toISOString().slice(0, 10)]) d.setDate(d.getDate() - 1);
-  while (state.activity[d.toISOString().slice(0, 10)]) {
-    n++;
-    d.setDate(d.getDate() - 1);
-  }
-  return n;
+  // consecutive days (ending today or yesterday) with any activity;
+  // days covered by a streak freeze bridge the gap
+  return streakLen(state.activity, state.game.frozen, today());
 }
 
 // ---- bundled data -------------------------------------------------------

@@ -82,38 +82,104 @@ export async function renderLibrary(view) {
   view.append(list);
 }
 
-export async function renderReader(view, essay) {
+// the essay mp3 lives outside the DOM, so it must be stopped explicitly
+// when leaving the reader (tab switch, back link)
+let activeAudio = null;
+export function stopReaderAudio() {
+  activeAudio?.pause();
+  activeAudio = null;
   stopTTS();
+}
+
+const fmtTime = (t) => (isFinite(t) ? `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}` : "0:00");
+
+export async function renderReader(view, essay) {
+  stopReaderAudio();
   view.innerHTML = "";
   view.scrollTop = 0;
 
   view.append(
-    h("button", { class: "back-link", onclick: () => { stopTTS(); renderLibrary(view); } }, "‹ Bibliothek")
+    h("button", { class: "back-link", onclick: () => { stopReaderAudio(); renderLibrary(view); } }, "‹ Bibliothek")
   );
 
-  // --- audio bar -------------------------------------------------------
-  const bar = h("div", { class: "audiobar" });
-  let audioEl = null;
-  if (essay.audioUrl) {
-    audioEl = h("audio", { controls: true, preload: "none", src: essay.audioUrl });
-    bar.append(audioEl);
-  }
+  // --- bottom player -----------------------------------------------------
+  // Fixed above the tab bar, far from the back link (it used to sit right
+  // under it at the top, so taps on ▶ kept hitting "‹ Bibliothek").
   const spans = [];
-  let ttsBtn;
-  if (ttsSupported()) {
-    ttsBtn = h("button", {
-      class: "btn soft sm", style: "margin-top:6px",
-      onclick: () => {
-        if (isSpeaking()) { stopTTS(); ttsBtn.textContent = "▶ Vorlesen mit Hervorhebung"; }
-        else {
-          speak(spans, { rate: 0.88, onEnd: () => (ttsBtn.textContent = "▶ Vorlesen mit Hervorhebung") });
-          ttsBtn.textContent = "■ Stopp";
-        }
-      },
-    }, "▶ Vorlesen mit Hervorhebung");
-    bar.append(ttsBtn);
+  const audioEl = essay.audioUrl ? new Audio() : null;
+  if (audioEl) { audioEl.preload = "none"; audioEl.src = essay.audioUrl; activeAudio = audioEl; }
+
+  const SPEEDS = [1, 0.85, 0.75, 1.15];
+  let speedIdx = 0;
+  let ttsRate = 0.88;
+  const playBtn = h("button", { class: "pl-play", "aria-label": "Abspielen / Pause" }, "▶");
+  const speedBtn = h("button", { class: "pl-sm", "aria-label": "Tempo" }, "1×");
+  const setIcon = (playing) => (playBtn.textContent = playing ? "❚❚" : "▶");
+  const ttsLabel = "🗣 Vorlesen";
+  let ttsBtn = null;
+
+  const startTTS = (btn) => {
+    audioEl?.pause();
+    speak(spans, { rate: ttsRate, onEnd: () => { if (btn) btn.textContent = ttsLabel; else setIcon(false); } });
+    if (btn) btn.textContent = "■ Stopp"; else setIcon(true);
+  };
+
+  const player = h("div", { class: "player" });
+  if (audioEl) {
+    const seek = h("input", { type: "range", min: 0, max: 1000, value: 0, class: "pl-seek", "aria-label": "Position" });
+    const time = h("span", { class: "pl-time" }, "0:00 / –");
+    let dragging = false;
+    audioEl.addEventListener("play", () => setIcon(true));
+    audioEl.addEventListener("pause", () => setIcon(false));
+    audioEl.addEventListener("ended", () => setIcon(false));
+    audioEl.addEventListener("timeupdate", () => {
+      const d = audioEl.duration;
+      if (!dragging && d) seek.value = String(Math.round((audioEl.currentTime / d) * 1000));
+      time.textContent = `${fmtTime(audioEl.currentTime)} / ${d ? fmtTime(d) : "–"}`;
+    });
+    seek.addEventListener("input", () => (dragging = true));
+    seek.addEventListener("change", () => {
+      dragging = false;
+      if (audioEl.duration) audioEl.currentTime = (Number(seek.value) / 1000) * audioEl.duration;
+    });
+    playBtn.onclick = () => {
+      if (isSpeaking()) { stopTTS(); if (ttsBtn) ttsBtn.textContent = ttsLabel; }
+      if (audioEl.paused) audioEl.play().catch(() => toast("Audio nicht verfügbar (offline?)"));
+      else audioEl.pause();
+    };
+    speedBtn.onclick = () => {
+      speedIdx = (speedIdx + 1) % SPEEDS.length;
+      audioEl.playbackRate = SPEEDS[speedIdx];
+      speedBtn.textContent = SPEEDS[speedIdx] + "×";
+    };
+    const skip = (d) => () => { audioEl.currentTime = Math.max(0, audioEl.currentTime + d); };
+    if (ttsSupported()) {
+      ttsBtn = h("button", { class: "pl-sm", onclick: () => {
+        if (isSpeaking()) { stopTTS(); ttsBtn.textContent = ttsLabel; } else startTTS(ttsBtn);
+      } }, ttsLabel);
+    }
+    player.append(
+      h("div", { class: "pl-row" }, seek, time),
+      h("div", { class: "pl-row pl-ctrls" },
+        speedBtn,
+        h("button", { class: "pl-skip", onclick: skip(-10), "aria-label": "10 Sekunden zurück" }, "↺10"),
+        playBtn,
+        h("button", { class: "pl-skip", onclick: skip(10), "aria-label": "10 Sekunden vor" }, "10↻"),
+        ttsBtn || h("span", { class: "pl-sm", style: "visibility:hidden" }, "")));
+  } else if (ttsSupported()) {
+    // no mp3: the big button drives read-aloud with highlighting
+    const TTS_SPEEDS = [0.88, 0.75, 1];
+    speedBtn.textContent = "Normal";
+    speedBtn.onclick = () => {
+      speedIdx = (speedIdx + 1) % TTS_SPEEDS.length;
+      ttsRate = TTS_SPEEDS[speedIdx];
+      speedBtn.textContent = ["Normal", "Langsam", "Schnell"][speedIdx];
+    };
+    playBtn.onclick = () => (isSpeaking() ? (stopTTS(), setIcon(false)) : startTTS(null));
+    player.append(h("div", { class: "pl-row pl-ctrls" },
+      speedBtn, playBtn, h("span", { class: "muted small" }, "🗣 Vorlesen mit Hervorhebung")));
   }
-  view.append(bar);
+  if (player.children.length) view.append(player);
 
   // --- title & meta ----------------------------------------------------
   view.append(
@@ -189,21 +255,27 @@ export async function renderReader(view, essay) {
   }
 
   // --- mark as read ----------------------------------------------------
-  const done = !!state.essaysRead[essay.id];
-  const btn = h("button", { class: "btn " + (done ? "ghost" : "green"), style: "width:100%;margin:12px 0" },
-    done ? "✓ Gelesen — Markierung entfernen" : "✓ Als gelesen markieren");
+  // updated in place so a playing mp3 keeps going
+  const btn = h("button", { style: "width:100%;margin:12px 0" });
+  const paint = () => {
+    const done = !!state.essaysRead[essay.id];
+    btn.className = "btn " + (done ? "ghost" : "green");
+    btn.textContent = done ? "✓ Gelesen — Markierung entfernen" : "✓ Als gelesen markieren · +30 XP";
+  };
+  paint();
   btn.onclick = () => {
     if (state.essaysRead[essay.id]) {
       delete state.essaysRead[essay.id];
+      save();
     } else {
       state.essaysRead[essay.id] = today();
       bumpActivity("essays");
       toast("Essay abgehakt! 🎉");
     }
-    save();
-    renderReader(view, essay);
+    paint();
   };
   view.append(btn);
+  view.append(h("div", { class: "player-spacer" }));
 }
 
 // --- tap-to-translate bottom sheet ------------------------------------

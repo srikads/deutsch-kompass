@@ -5,7 +5,7 @@ import { state, save, h, loadData, toast, bumpActivity, today, esc } from "./cor
 import { openTutor } from "./tutor.js";
 
 // lesson topic -> drill id in data/drills.json (or generated drills)
-const TOPIC_DRILL = {
+export const TOPIC_DRILL = {
   "Relativsätze": "relativsaetze",
   "Konjunktiv": "konjunktiv2",
   "Präpositionen": "praep-dat-akk",

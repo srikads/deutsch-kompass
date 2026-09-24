@@ -4,6 +4,11 @@
 import { state, save, h, loadData, toast, bumpActivity, today, shuffle, pct } from "./core.js";
 import { getLessons, renderLernenSection, renderLesson } from "./lernen.js";
 import { openTutor } from "./tutor.js";
+import { renderPathMap } from "./path.js";
+import { runBlitz } from "./blitz.js";
+import { BLITZ_MODES } from "./exercises.js";
+
+let section = "pfad"; // remembered while the app is open
 
 async function startDrillById(view, id) {
   if (id === "artikel") return articleDrill(view);
@@ -15,33 +20,30 @@ async function startDrillById(view, id) {
 
 export async function renderPractice(view) {
   view.innerHTML = "";
+  view.classList.remove("feedmode");
   const [drills, lesen, schreiben, lessons] = await Promise.all([
     loadData("drills"), loadData("lesen_sets"), loadData("schreiben"), getLessons(),
   ]);
 
-  if (lessons.length) {
-    renderLernenSection(view, lessons, (l) =>
-      renderLesson(view, l, () => renderPractice(view), (drillId) => startDrillById(view, drillId)));
-  }
+  const back = () => renderPractice(view);
+  const SECTIONS = [["pfad", "🗺️ Pfad"], ["blitz", "⚡ Blitz & Drills"], ["pruefung", "📝 Lesen & Schreiben"], ["regeln", "📚 Grammatik"]];
+  view.append(h("div", { class: "chips seg" }, ...SECTIONS.map(([id, label]) =>
+    h("button", { class: "chip" + (section === id ? " active" : ""), onclick: () => { section = id; back(); } }, label))));
 
-  // --- Grammatik ------------------------------------------------------
-  view.append(h("h2", { class: "section" }, "Grammatik-Drills"));
-  const g = h("div", { class: "card" });
-  const drillBtn = (title, sub, fn, id) => {
-    const s = state.drillStats[id];
-    return h("div", { class: "row", style: "padding:8px 0;border-bottom:1px solid var(--line)" },
-      h("div", { class: "grow" }, h("b", {}, title), h("div", { class: "muted small" },
-        sub + (s ? ` · bisher ${s.right}✓ ${s.wrong}✗` : "")),
-      ),
-      h("button", { class: "btn sm", onclick: fn }, "Start"));
-  };
-  g.append(
-    drillBtn("der / die / das", "Artikel echter B1-Nomen", () => articleDrill(view), "artikel"),
-    drillBtn("Perfekt", "hat oder ist? Partizip II echter B1-Verben", () => perfektDrill(view), "perfekt"),
-    ...drills.map((d) =>
-      drillBtn(d.title, d.subtitle, () => runQuiz(view, d.title, shuffle(d.questions).slice(0, 10), d.id), d.id))
-  );
-  view.append(g);
+  if (section === "pfad") {
+    if (lessons.length) renderPathMap(view, lessons, back);
+    return;
+  }
+  if (section === "regeln") {
+    if (lessons.length)
+      renderLernenSection(view, lessons, (l) =>
+        renderLesson(view, l, back, (drillId) => startDrillById(view, drillId)));
+    return;
+  }
+  if (section === "blitz") {
+    renderBlitzAndDrills(view, drills, back);
+    return;
+  }
 
   // --- Lesen ----------------------------------------------------------
   view.append(h("h2", { class: "section" }, "Lesen-Training (Prüfungsformat)"));
@@ -67,6 +69,39 @@ export async function renderPractice(view) {
       h("button", { class: "btn sm", onclick: () => runSchreiben(view, p) }, done ? "Ansehen" : "Start")));
   }
   view.append(s);
+}
+
+// ---- Blitz + Grammatik-Drills section -----------------------------------
+
+function renderBlitzAndDrills(view, drills, back) {
+  view.append(h("h2", { class: "section" }, "⚡ 60-Sekunden-Blitz"));
+  const b = h("div", { class: "card" });
+  for (const [id, m] of Object.entries(BLITZ_MODES)) {
+    const best = state.game.best[id] || 0;
+    b.append(h("button", { class: "blitz-mode", onclick: () => runBlitz(view, id, back) },
+      h("span", { class: "blitz-ico" }, m.icon),
+      h("span", { class: "grow" }, h("b", {}, m.title), h("div", { class: "muted small" }, m.sub)),
+      h("span", { class: "blitz-best" }, best ? `🏆 ${best}` : "neu")));
+  }
+  view.append(b);
+
+  view.append(h("h2", { class: "section" }, "Grammatik-Drills"));
+  const g = h("div", { class: "card" });
+  const drillBtn = (title, sub, fn, id) => {
+    const s = state.drillStats[id];
+    return h("div", { class: "row", style: "padding:8px 0;border-bottom:1px solid var(--line)" },
+      h("div", { class: "grow" }, h("b", {}, title), h("div", { class: "muted small" },
+        sub + (s ? ` · bisher ${s.right}✓ ${s.wrong}✗` : "")),
+      ),
+      h("button", { class: "btn sm", onclick: fn }, "Start"));
+  };
+  g.append(
+    drillBtn("der / die / das", "Artikel echter B1-Nomen", () => articleDrill(view), "artikel"),
+    drillBtn("Perfekt", "hat oder ist? Partizip II echter B1-Verben", () => perfektDrill(view), "perfekt"),
+    ...drills.map((d) =>
+      drillBtn(d.title, d.subtitle, () => runQuiz(view, d.title, shuffle(d.questions).slice(0, 10), d.id), d.id))
+  );
+  view.append(g);
 }
 
 // ---- generic quiz engine ---------------------------------------------
